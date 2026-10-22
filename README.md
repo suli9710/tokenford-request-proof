@@ -4,7 +4,7 @@
 
 当前 V2 只有本地合成 TLS、SSH 和证明链的开发验收，没有真实上游 V2、两台机器互联或现网验收。它没有接受外部安全审计，也没有得到上游背书。`PASS`、站方签名日志、AI 审查意见和本包自带的哈希，都不能代替你的独立判断。
 
-暂定公开仓库为 `suli9710/tokenford-request-proof`。此候选准备时，仓库尚待批准创建，工作流尚未在 GitHub 运行；发布后的状态须以实际仓库和运行记录为准。
+公开仓库为 [suli9710/tokenford-request-proof](https://github.com/suli9710/tokenford-request-proof)。初始源码已发布；当前版本的实际验收及未完成项见 [VALIDATION.md](VALIDATION.md)。工作流文件、来源证明和公开记录均不能代替实际运行结果。
 
 ## 从哪里开始
 
@@ -29,6 +29,7 @@ bash setup.sh
 .venv/bin/python -B review.py runtime
 .venv/bin/python -B review.py reproduce
 .venv/bin/python -B review.py audit
+.venv/bin/python -B review.py evidence --out build/public-evidence.json
 ```
 
 `setup.sh` 只检测工具、创建本目录的 `.venv` 并按锁文件安装 Python 依赖；它不会安装全局工具或替你更新基线。Windows PowerShell 可以直接建立环境：
@@ -42,6 +43,7 @@ py -3.12 -m venv .venv
 .\.venv\Scripts\python.exe -B review.py runtime
 .\.venv\Scripts\python.exe -B review.py reproduce
 .\.venv\Scripts\python.exe -B review.py audit
+.\.venv\Scripts\python.exe -B review.py evidence --out build/public-evidence.json
 ```
 
 失败时保留错误并核对原因，不要修改锁文件、删除检查或重新生成基线来得到成功输出。`build` 会下载锁定的公开输入、编译本地客户端和电路，不需要真实账号凭据。`audit` 会启动本地合成 SSH／TLS 服务并做证明及必要负例，不请求真实上游。
@@ -52,9 +54,10 @@ py -3.12 -m venv .venv
 | --- | --- |
 | `check` | 分发源码与根清单一致，实际执行两层源码检查器；bootstrap 只允许指定外部源尚未下载。 |
 | `build` | 使用锁定版本取得公开输入并本地编译，记录本次安装。记录由本机生成，不是独立认证。 |
-| `runtime` | 核对本地客户端二进制、`node_modules`、选定的 Python／Node／SSH 主程序及所需编译材料。Python 站点包、系统 DLL 和操作系统整体不在运行时摘要覆盖内。 |
+| `runtime` | 核对本地客户端、Node依赖、隔离venv的Python包文件（含元数据／`.pth`）和选定的Python／Node／SSH程序。排除字节码缓存；Python启动、标准库、系统库和OS仍须可信。 |
 | `reproduce` | 在同一机器的新进程中重编电路和验证密钥并比较摘要。没有证明 Rust 二进制或跨机器位级可重复。 |
-| `audit` | 运行合成正例、错误模型／正文／账号、错误 SSH 主机公钥、四个元数据见证负例、公钥来源受控替身和运行材料漂移检查。完整范围见 [AI_REVIEW.md](AI_REVIEW.md)。 |
+| `audit` | 运行合成正例、错误模型／正文／账号、错误SSH主机公钥、四个元数据见证负例、公钥来源受控替身，以及客户端／Node／Python依赖漂移检查。完整范围见 [AI_REVIEW.md](AI_REVIEW.md)。 |
+| `evidence` | 当前源码、安装快照、重编结果和完整合成检查均匹配后，导出不含本地路径／凭据的摘要；拒绝旧源码／旧安装结果、缺失负例或不同验证密钥，并分别记录执行与导出时间。摘要仍是执行记录，不是安全认证。 |
 | `verify` | 由本机验证端参加一次实际 SSH 证明交互；需要另行审阅的真实证明端与独立确认的主机公钥。 |
 
 你要主动发起一次真实验证时，先读证明端说明并自行准备配置，再使用新的回执路径：

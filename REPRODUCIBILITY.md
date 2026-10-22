@@ -25,6 +25,9 @@ bash setup.sh
 .venv/bin/python -B review.py runtime
 .venv/bin/python -B review.py reproduce
 .venv/bin/python -B review.py audit
+.venv/bin/python -B scripts/check_evidence_gate.py
+.venv/bin/python -B scripts/check_runtime_inventory.py
+.venv/bin/python -B review.py evidence --out build/public-evidence.json
 .venv/bin/python -B scripts/package_source.py --out build/source.zip
 ```
 
@@ -33,9 +36,10 @@ bash setup.sh
 | 结果 | 能复核的内容 | 没有证明的内容 |
 | --- | --- | --- |
 | `check` | 根清单、文件集合和两层源码检查器；指定外部源在 bootstrap 阶段可以缺失。已有外部文件仍须匹配。 | 发布者身份、基线本身安全、完整构建环境。 |
-| `build/installation.json` 与 `runtime` | 当次客户端、Node 依赖及所选 Python／Node／SSH 主程序与本地记录一致；所需编译材料完整。 | 独立签名、Python 站点包哈希、系统 DLL、OS 整体。 |
+| `build/installation.json` 与 `runtime` | 当次客户端、Node依赖、隔离venv的Python文件（含元数据／`.pth`）及所选Python／Node／SSH主程序与本地记录一致。 | 独立签名、可信Python启动／标准库／字节码缓存、系统库、OS整体；不阻止启动时已执行的恶意`.pth`。 |
 | `build/recompile-result.json` | 同机器新进程电路 bytecode 和验证密钥摘要与重编前匹配。 | Rust 可执行文件位级复现、跨机器／跨系统一致。 |
 | `audit` 的本地 summary | 本轮合成正例和指定负例被实际执行。 | 真实上游、完整攻击面或机构审计。 |
+| `build/public-evidence.json` | 源码、安装快照、重编及10组合成检查对应，摘要不含本地路径或凭据；旧源码／旧安装结果或缺项会拒绝。执行与导出时间分别记录。 | 维护者与主机诚实性、独立审计；摘要不是签名证书。 |
 | `build/source.zip` 与同名 JSON | 白名单源码的固定顺序、时间戳、权限和换行规则；ZIP CRC 与摘要。 | 编译产物可重复或所有依赖已获许可。 |
 
 ## 独立检查源码包
@@ -48,6 +52,6 @@ bash setup.sh
 
 ## CI 状态与来源证明
 
-[review.yml](.github/workflows/review.yml) 只允许人工触发，先在 Ubuntu 24.04 使用固定工具链构建、重编和合成复核，成功后在另一个最小权限任务中打包源码并为 `source.zip` 创建 GitHub 构建来源证明。此候选准备时，工作流尚未在 GitHub 运行。
+[review.yml](.github/workflows/review.yml) 只允许人工触发，先在Ubuntu 24.04使用固定工具链构建、重编和合成复核，上传不含本地路径的`public-evidence.json`。成功后在另一个最小权限任务中打包源码并为`source.zip`创建GitHub构建来源证明。实际执行状态见VALIDATION及对应Actions运行链接。
 
-来源证明用于关联提交、工作流和源码包摘要；它不证明代码安全、账号真实性、依赖许可或真实上游成功。CI 不执行 `verify`，不自动推送、发版或上传本地二进制／电路／构建日志。
+来源证明用于关联提交、工作流和源码包摘要，不覆盖合成执行摘要的签名认证；它不证明代码安全、账号真实性、依赖许可或真实上游成功。CI不执行`verify`，不自动推送、发版或上传本地二进制／电路／原始构建日志。任何人可在自己的fork以同一源码哈希触发复核。

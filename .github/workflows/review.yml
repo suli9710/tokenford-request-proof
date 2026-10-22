@@ -1,6 +1,7 @@
 name: Manual source review and provenance
+run-name: Synthetic source review by ${{ github.actor }}
 
-on:
+'on':
   workflow_dispatch:
     inputs:
       expected_manifest:
@@ -49,7 +50,17 @@ jobs:
           .venv/bin/python -B review.py runtime
           .venv/bin/python -B review.py reproduce
           .venv/bin/python -B review.py audit
+          .venv/bin/python -B scripts/check_evidence_gate.py
+          .venv/bin/python -B scripts/check_runtime_inventory.py
+          .venv/bin/python -B review.py evidence --out build/public-evidence.json
           .venv/bin/python -B scripts/package_source.py --out build/source.zip
+      - name: Publish bounded execution evidence (no credentials or local paths)
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: synthetic-evidence-${{ github.sha }}
+          path: build/public-evidence.json
+          if-no-files-found: error
+          retention-days: 30
 
   source-provenance:
     needs: review

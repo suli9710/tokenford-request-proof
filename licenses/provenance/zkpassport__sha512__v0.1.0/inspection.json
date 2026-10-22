@@ -1,0 +1,14 @@
+{
+  "archive_url": "https://codeload.github.com/zkpassport/sha512/tar.gz/v0.1.0",
+  "archive_sha256": "9a84ba7beaa17540300e96a7e5128809eedbab128a47817c1e6b7967f1efe148",
+  "locked_archive_sha256": "9a84ba7beaa17540300e96a7e5128809eedbab128a47817c1e6b7967f1efe148",
+  "locked_archive_match": true,
+  "bytes": 48477,
+  "repository": "https://github.com/zkpassport/sha512",
+  "ref": "v0.1.0",
+  "archive_member_count": 25,
+  "license_notice_paths": [
+    "LICENSE"
+  ],
+  "declarations": []
+}

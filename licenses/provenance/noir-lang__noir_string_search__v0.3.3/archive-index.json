@@ -1,0 +1,77 @@
+[
+  {
+    "path": ".github/NIGHTLY_CANARY_DIED.md",
+    "bytes": 394,
+    "sha256": "3ea89c6b5bdb0327a3aa58155285c10e9df051e54c7b2f7c95a1c9e9f9450234"
+  },
+  {
+    "path": ".github/workflows/nightly-canary.yml",
+    "bytes": 920,
+    "sha256": "c8f4bf5c78cfc0375e1f429ee7fd79d9a0f31c09185abdd02668082b20801f2e"
+  },
+  {
+    "path": ".github/workflows/pull-request-title.yml",
+    "bytes": 587,
+    "sha256": "13f61844a797a528e5fc0cf938016cf69d78f2e904c09db5022b74d859f7d3dd"
+  },
+  {
+    "path": ".github/workflows/release.yml",
+    "bytes": 460,
+    "sha256": "7b5b5ca31695f9536d45e96d7e9f9210d1d62e380b11a6166b220f666a9b0380"
+  },
+  {
+    "path": ".github/workflows/test.yml",
+    "bytes": 2624,
+    "sha256": "a97f5edc6d2b844875465f915525c52ba31e340ea66dde8397b47cfc72d18365"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 28,
+    "sha256": "50195084ef0f2fd1de5bbdb0712f030f94de8d3312b73eb1f7e5d648c7b66a32"
+  },
+  {
+    "path": ".release-please-manifest.json",
+    "bytes": 14,
+    "sha256": "6993cea3dbd332429a2f758328a3bec8ccbe1e88f82515413fb6f34036e9907c"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "bytes": 2124,
+    "sha256": "428d520c0a6542f610462943aa920688464190db25d5a4aecd11b78d61fcf373"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 5318,
+    "sha256": "e628271a7e5c950c86db39002729b77bfd8c4339199826454abe796f369d5779"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 11356,
+    "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1"
+  },
+  {
+    "path": "Nargo.toml",
+    "bytes": 112,
+    "sha256": "05fd9c1f6385d498e45fab2682d5292fdf57497b7d8463b20f8879458dff0ba2"
+  },
+  {
+    "path": "README.md",
+    "bytes": 3219,
+    "sha256": "0ea4b926a5cdb4b25d27e36cb34b239f38c7bb9cf8ac3cf740b6674f849ff64e"
+  },
+  {
+    "path": "release-please-config.json",
+    "bytes": 383,
+    "sha256": "657c0bacc9abc669cda3d54667fc3db91fee93fa03eb2a124e3599de4c5c16ab"
+  },
+  {
+    "path": "src/lib.nr",
+    "bytes": 29966,
+    "sha256": "d7c6715cdd3e75f5f332b4347ac778869cee380dcee838cf0d4fb8c7ea44a166"
+  },
+  {
+    "path": "src/utils.nr",
+    "bytes": 2737,
+    "sha256": "d1a8a231be6627aea26c0032c04747f7a51d1d2ceb7e9d664c4e29ab9e9a9497"
+  }
+]

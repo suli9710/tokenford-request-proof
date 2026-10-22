@@ -1,0 +1,12 @@
+{
+  "archive_url": "https://codeload.github.com/olehmisar/nodash/tar.gz/v0.42.0",
+  "archive_sha256": "d0a3aed81ed5418b21d989bfaccd54ca7acb82c28b8fafa1f737718d5ab77d35",
+  "locked_archive_sha256": "d0a3aed81ed5418b21d989bfaccd54ca7acb82c28b8fafa1f737718d5ab77d35",
+  "locked_archive_match": true,
+  "bytes": 9854,
+  "repository": "https://github.com/olehmisar/nodash",
+  "ref": "v0.42.0",
+  "archive_member_count": 19,
+  "license_notice_paths": [],
+  "declarations": []
+}

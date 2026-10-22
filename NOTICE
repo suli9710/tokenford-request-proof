@@ -1,0 +1,9 @@
+Request Proof Experiment
+
+The root LICENSE contains the Apache License, Version 2.0, chosen by the user for this project's original files and original modifications. It does not relicense vendored code, copied third-party material, or upstream-derived portions of modified dependency files. No new copyright-holder identity is asserted here.
+
+Third-party source notices and license alternatives remain applicable. Existing vendored LICENSE files and source attributions are preserved. This distribution selects Apache-2.0 where the pinned TLSNotary README expressly offers Apache-2.0 OR MIT for all its crates; see licenses/TLSNotary-LICENSE-NOTE.md and licenses/Apache-2.0.txt.
+
+Exact-source license material for other vendored Noir libraries is recorded in licenses/license-inventory.json. The exact pinned archives for noir-lang/keccak256 v0.1.1, noir-lang/sha256 v0.2.1, and olehmisar/nodash v0.42.0 contain no license grant/text or NOTICE. Their licensing remains unresolved. The project's Apache-2.0 choice does not grant permission for those components. The source-only distribution excludes these three source directories, their copied README/manifests, and compiled circuit artifacts. Only origin URLs, paths and digests are retained. A complete dependency closure or derived binary release is not cleared by this source-only exclusion policy.
+
+No upstream NOTICE file was found in the inspected pinned TLSNotary or vendored Noir source archives. This file adds project scope/provenance information; it is not represented as an upstream-authored NOTICE and does not replace any original source attribution.

@@ -1,0 +1,197 @@
+[
+  {
+    "path": ".github/NIGHTLY_CANARY_DIED.md",
+    "bytes": 405,
+    "sha256": "790f599b838367df66e3841bde1b0ecea17a32e8a5bd392f7b8227e6567de983"
+  },
+  {
+    "path": ".github/workflows/nightly-canary.yml",
+    "bytes": 919,
+    "sha256": "80983a516545d7507c0002404be91529918393f8360d1ccf5933b47a7fe9628b"
+  },
+  {
+    "path": ".github/workflows/pull-request-title.yml",
+    "bytes": 587,
+    "sha256": "13f61844a797a528e5fc0cf938016cf69d78f2e904c09db5022b74d859f7d3dd"
+  },
+  {
+    "path": ".github/workflows/release.yml",
+    "bytes": 460,
+    "sha256": "7b5b5ca31695f9536d45e96d7e9f9210d1d62e380b11a6166b220f666a9b0380"
+  },
+  {
+    "path": ".github/workflows/test.yml",
+    "bytes": 2611,
+    "sha256": "9b633df4e4d389454c0cb45354b887e2188c10229fb6c4003e35721f8c127f54"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 7,
+    "sha256": "c97ecfda4d205190b973232dcfdb0c29748521c2534dd866bcc782f30b086738"
+  },
+  {
+    "path": ".release-please-manifest.json",
+    "bytes": 14,
+    "sha256": "29dcfc3b6302bff169e9a764158f5557eb4d87dcb42a81621c67fadf2576162d"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "bytes": 2614,
+    "sha256": "632b9111407dbc0dade46fc1000dd02b776fc992e0005d196101b879c69e712f"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 5318,
+    "sha256": "e628271a7e5c950c86db39002729b77bfd8c4339199826454abe796f369d5779"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 10947,
+    "sha256": "4458503dd48e88c4e0b945fb252a08b93c40ec757309b8ffa7c594dfa1e35104"
+  },
+  {
+    "path": "Nargo.toml",
+    "bytes": 182,
+    "sha256": "7f2cc456a6c29f00e272033ffc38c4dd0195f97f6ff438e741d103b1f6204399"
+  },
+  {
+    "path": "README.md",
+    "bytes": 6947,
+    "sha256": "ce51c9eb8d6006d72d6f6d9a83d69c57acec3ab31d8bace997693daf273c916b"
+  },
+  {
+    "path": "release-please-config.json",
+    "bytes": 383,
+    "sha256": "657c0bacc9abc669cda3d54667fc3db91fee93fa03eb2a124e3599de4c5c16ab"
+  },
+  {
+    "path": "src/_comparison_tools/bounds_checker.nr",
+    "bytes": 4929,
+    "sha256": "9f2790336ee19431735fa7a18ae45a99b222075a6f513c1b5d4f5b2d80a09a20"
+  },
+  {
+    "path": "src/_comparison_tools/lt.nr",
+    "bytes": 2691,
+    "sha256": "92e7ce5e9e8d3142b51ebfb67e5e85886b063323ac9a6a65c8b0abb1df709ea8"
+  },
+  {
+    "path": "src/_comparison_tools/mod.nr",
+    "bytes": 28,
+    "sha256": "7287f65d50cb7762553e966c6f3117bb6df98d9b2f6d3619ac63864b0f3143b1"
+  },
+  {
+    "path": "src/_string_tools/mod.nr",
+    "bytes": 87,
+    "sha256": "2fdcc1a20ff5f38c474d4bec050470e791f2a2718c0700dfaef79607c8e05cf0"
+  },
+  {
+    "path": "src/_string_tools/slice_field.nr",
+    "bytes": 2603,
+    "sha256": "bbcdb94616227cf6ae31a940d9cc474c5cc15dc8672d5807ae2bbce5d89a677f"
+  },
+  {
+    "path": "src/_string_tools/slice_packed_field.nr",
+    "bytes": 34712,
+    "sha256": "7ba469ce5b3158458de45c73f8adc5f4ec7bc85d7722da308f7ca4809ac1fcaa"
+  },
+  {
+    "path": "src/_string_tools/string_chopper.nr",
+    "bytes": 1085,
+    "sha256": "2de3b5af0d12756c2012a30a6f0d0b9c0d38f4a2fabb73c855f52f1fb2152413"
+  },
+  {
+    "path": "src/_string_tools/sum_bytes_into_field.nr",
+    "bytes": 7803,
+    "sha256": "57bb82dbc2987cde5817d591c5a4cbe08dd93aa5c2cd9476ad96e9a1d6bde982"
+  },
+  {
+    "path": "src/_table_generation/make_tables.nr",
+    "bytes": 21211,
+    "sha256": "18695ab9e3f36f1b138dd6429aeed9268827951f952c5de8591cca31c9949bbb"
+  },
+  {
+    "path": "src/_table_generation/make_tables_subtables.nr",
+    "bytes": 58680,
+    "sha256": "34f0fdb52014a9789a665e045bde88ed01c936249437a9f9a713c1ee2bb17665"
+  },
+  {
+    "path": "src/_table_generation/mod.nr",
+    "bytes": 44,
+    "sha256": "bd03738b39b1df6cd6daa5bbc17a8e5cf65217cfe9c821585e1889484fa8e31c"
+  },
+  {
+    "path": "src/enums.nr",
+    "bytes": 802,
+    "sha256": "bdbba0a0794a2dd656728ed34ad5391235d2678e735cd6380d27b6eb2168d967"
+  },
+  {
+    "path": "src/get_array.nr",
+    "bytes": 9723,
+    "sha256": "aa133f255f3a479456ec711bef583fe1aadd0837ad80e5534354d6d244db6f1e"
+  },
+  {
+    "path": "src/get_literal.nr",
+    "bytes": 7804,
+    "sha256": "a2085d177f21b8d240c0a76d0717c18e11efb4d9dbb8e541838c4a4e70842a9f"
+  },
+  {
+    "path": "src/get_number.nr",
+    "bytes": 6398,
+    "sha256": "2db2abc162f9c283810aa0be475029573a5ebf61a936598c5e9d44fc2a27ec68"
+  },
+  {
+    "path": "src/get_object.nr",
+    "bytes": 8396,
+    "sha256": "497588ac316acdc7ec4b0589e7f19b5378c9d67df09a7b401d9f64d144bb1803"
+  },
+  {
+    "path": "src/get_string.nr",
+    "bytes": 16761,
+    "sha256": "bb3c4b7a6982330b3afa596b34f424f1b9b6dd2e9cb2fa91008b73d8ec621d0b"
+  },
+  {
+    "path": "src/getters.nr",
+    "bytes": 22447,
+    "sha256": "c41a2e1ff94aafc79fdaf02fff9c1a1e1a599476639bb4e5fa25f419f2eb73cb"
+  },
+  {
+    "path": "src/json.nr",
+    "bytes": 44969,
+    "sha256": "8368c038d8c348ee31301a4ef0b8c628ef902e9d7b11fd856ee3455914b2d529"
+  },
+  {
+    "path": "src/json_entry.nr",
+    "bytes": 11077,
+    "sha256": "563ffb97d9b784c31df590e2800c431350c4b52a693125f47cca463692df15b2"
+  },
+  {
+    "path": "src/json_tables.nr",
+    "bytes": 62759,
+    "sha256": "63c9e3068a60e7c153e85ef4dd0f11fd5cd7d2a8234d875923825e6dd87fb9a8"
+  },
+  {
+    "path": "src/keyhash.nr",
+    "bytes": 2301,
+    "sha256": "729c9ea87d3e678616b67606f5cbfae18d778fc24518c18e66815bf39f9eed86"
+  },
+  {
+    "path": "src/keymap.nr",
+    "bytes": 7435,
+    "sha256": "251e22cc505268f44a9db0a6a8a72891e0adebf942d28beb213097041fbeff32"
+  },
+  {
+    "path": "src/lib.nr",
+    "bytes": 5641,
+    "sha256": "be6fc19c0bede180bd578116dec09fff6626ded5a8d13c969e3cffb26f343b6d"
+  },
+  {
+    "path": "src/token_flags.nr",
+    "bytes": 2662,
+    "sha256": "4d43a055079f9ea0c1375da6eb4cbbfb0938aaf928930398f9d89d63d290acb9"
+  },
+  {
+    "path": "src/transcript_entry.nr",
+    "bytes": 9476,
+    "sha256": "dbb768daae57915725c35945ffdd9682b291b948371811ed822894a622bcdab0"
+  }
+]

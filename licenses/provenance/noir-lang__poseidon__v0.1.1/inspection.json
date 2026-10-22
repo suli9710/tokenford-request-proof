@@ -1,0 +1,14 @@
+{
+  "archive_url": "https://codeload.github.com/noir-lang/poseidon/tar.gz/v0.1.1",
+  "archive_sha256": "1e380ed733b660798c749541cfe3827a760e03b05d4af3a27d60be5734bad6fe",
+  "locked_archive_sha256": "1e380ed733b660798c749541cfe3827a760e03b05d4af3a27d60be5734bad6fe",
+  "locked_archive_match": true,
+  "bytes": 926539,
+  "repository": "https://github.com/noir-lang/poseidon",
+  "ref": "v0.1.1",
+  "archive_member_count": 27,
+  "license_notice_paths": [
+    "LICENSE"
+  ],
+  "declarations": []
+}

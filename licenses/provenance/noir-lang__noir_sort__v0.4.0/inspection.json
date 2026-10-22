@@ -1,0 +1,14 @@
+{
+  "archive_url": "https://codeload.github.com/noir-lang/noir_sort/tar.gz/v0.4.0",
+  "archive_sha256": "89998405a869a4537a5b74df50c5f9170a10aecf7776581525d59f6118d29b1a",
+  "locked_archive_sha256": "89998405a869a4537a5b74df50c5f9170a10aecf7776581525d59f6118d29b1a",
+  "locked_archive_match": true,
+  "bytes": 12384,
+  "repository": "https://github.com/noir-lang/noir_sort",
+  "ref": "v0.4.0",
+  "archive_member_count": 18,
+  "license_notice_paths": [
+    "LICENSE"
+  ],
+  "declarations": []
+}

@@ -1,0 +1,19 @@
+# Local dependencies, secrets, receipts and build outputs never belong in Git.
+**/node_modules/
+**/target/
+**/__pycache__/
+.venv/
+build/
+request-proof/fixture/
+zk-prototype/fixtures/
+zk-prototype/outputs/
+**/artifacts/
+*.dat
+*.pem
+*.key
+.env
+credentials.json
+# These exact upstream versions lack clear license grants; fetch locally only.
+zk-prototype/vendor/noir-lang__keccak256__v0.1.1/
+zk-prototype/vendor/noir-lang__sha256__v0.2.1/
+zk-prototype/vendor/olehmisar__nodash__v0.42.0/

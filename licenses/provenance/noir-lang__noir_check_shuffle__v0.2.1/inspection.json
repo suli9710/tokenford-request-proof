@@ -1,0 +1,14 @@
+{
+  "archive_url": "https://codeload.github.com/noir-lang/noir_check_shuffle/tar.gz/v0.2.1",
+  "archive_sha256": "e752c59a70ee777898f452835ae845ff9ee45ab86f1c1fb25461802538042158",
+  "locked_archive_sha256": "e752c59a70ee777898f452835ae845ff9ee45ab86f1c1fb25461802538042158",
+  "locked_archive_match": true,
+  "bytes": 9055,
+  "repository": "https://github.com/noir-lang/noir_check_shuffle",
+  "ref": "v0.2.1",
+  "archive_member_count": 15,
+  "license_notice_paths": [
+    "LICENSE"
+  ],
+  "declarations": []
+}

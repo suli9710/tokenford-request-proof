@@ -1,0 +1,25 @@
+{
+  "archive_url": "https://codeload.github.com/noir-lang/noir_json_parser/tar.gz/7c28610067af182d4b03bde406f1b3dfbbaa6f1f",
+  "archive_sha256": "102204b090ef53fd8d0aa0bb273981ab0db769582df297f0ec3bcb836ff5f30f",
+  "locked_archive_sha256": "102204b090ef53fd8d0aa0bb273981ab0db769582df297f0ec3bcb836ff5f30f",
+  "locked_archive_match": true,
+  "bytes": 62194,
+  "repository": "https://github.com/noir-lang/noir_json_parser",
+  "ref": "7c28610067af182d4b03bde406f1b3dfbbaa6f1f",
+  "archive_member_count": 44,
+  "license_notice_paths": [
+    "LICENSE"
+  ],
+  "declarations": [
+    {
+      "path": "README.md",
+      "sha256": "7c1bdf78af9c849c7b302cc2b59649dec2c24d14e6a77afaa7d6c8959224ce07",
+      "lines": [
+        {
+          "line": 6,
+          "text": "> noir_json_parser is provided \"as is\", without warranty of any kind (see [LICENSE](LICENSE)). Bugs in this library can lead to under-constrained circuits, allowing invalid proofs to be accepted. Do not rely on it to protect real assets or sensitive data without your own independent review."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "archive_url": "https://codeload.github.com/tlsnotary/tlsn/tar.gz/9a3d73c5bdeeab0255bdb05c89116554cebf6dbe",
+  "archive_sha256": "fb6277f833f5763b0fbefd423e1f3e615269b0430e9729b3b602626c6d165811",
+  "locked_archive_sha256": null,
+  "locked_archive_match": null,
+  "bytes": 626442,
+  "repository": "https://github.com/tlsnotary/tlsn",
+  "ref": "9a3d73c5bdeeab0255bdb05c89116554cebf6dbe",
+  "archive_member_count": 523,
+  "license_notice_paths": [],
+  "declarations": [
+    {
+      "path": "README.md",
+      "sha256": "7ead822dbab7bc91b145112754c6df60fdb0bfdb98a8cf92da82a196b15f424b",
+      "lines": [
+        {
+          "line": 5,
+          "text": "![MIT licensed][mit-badge]"
+        },
+        {
+          "line": 6,
+          "text": "![Apache licensed][apache-badge]"
+        },
+        {
+          "line": 9,
+          "text": "[mit-badge]: https://img.shields.io/badge/license-MIT-blue.svg"
+        },
+        {
+          "line": 10,
+          "text": "[apache-badge]: https://img.shields.io/github/license/saltstack/salt"
+        },
+        {
+          "line": 27,
+          "text": "## License"
+        },
+        {
+          "line": 28,
+          "text": "All crates in this repository are licensed under either of"
+        },
+        {
+          "line": 30,
+          "text": "- [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)"
+        },
+        {
+          "line": 31,
+          "text": "- [MIT license](http://opensource.org/licenses/MIT)"
+        },
+        {
+          "line": 74,
+          "text": "for inclusion in the work by you, as defined in the Apache-2.0 license, shall be"
+        },
+        {
+          "line": 75,
+          "text": "dual licensed as above, without any additional terms or conditions."
+        }
+      ]
+    },
+    {
+      "path": "crates/components/cipher/Cargo.toml",
+      "sha256": "90150487ccb9df8ebf6bc57f6a7c131c75e7e7e0a05ef16980073fb724035225",
+      "lines": [
+        {
+          "line": 7,
+          "text": "license = \"MIT OR Apache-2.0\""
+        }
+      ]
+    },
+    {
+      "path": "crates/components/hmac-sha256/Cargo.toml",
+      "sha256": "814f23b89cc6de38e465ff88d5ca4f15c7b85f544da701e43c5e7ff93d3c2802",
+      "lines": [
+        {
+          "line": 7,
+          "text": "license = \"MIT OR Apache-2.0\""
+        }
+      ]
+    },
+    {
+      "path": "crates/components/key-exchange/Cargo.toml",
+      "sha256": "06d62ff6c43f570c37e7236e1b33d57a3a83cc0c557002c43c38904fa2bc87e1",
+      "lines": [
+        {
+          "line": 7,
+          "text": "license = \"MIT OR Apache-2.0\""
+        }
+      ]
+    },
+    {
+      "path": "crates/core/Cargo.toml",
+      "sha256": "83eed851a92af39f38ba99bd44fc25cff3beeb2ae08b6f792bf121104b40fb23",
+      "lines": [
+        {
+          "line": 7,
+          "text": "license = \"MIT OR Apache-2.0\""
+        }
+      ]
+    },
+    {
+      "path": "crates/mpc-tls/Cargo.toml",
+      "sha256": "dbef9d7c78830ed1b5e0c4b3dd3775ddffdd91e54450de4c8fc7d32f7ce37807",
+      "lines": [
+        {
+          "line": 7,
+          "text": "license = \"MIT OR Apache-2.0\""
+        }
+      ]
+    },
+    {
+      "path": "crates/tls/backend/Cargo.toml",
+      "sha256": "bf8538434049e519563116fe97d1911480889cac887b0f1d8714d8486f121da8",
+      "lines": [
+        {
+          "line": 7,
+          "text": "license = \"MIT OR Apache-2.0\""
+        }
+      ]
+    },
+    {
+      "path": "crates/tls/client-async/Cargo.toml",
+      "sha256": "1958e11364e6707b144cbd13c21ccb8c7baaf2fae8e164358afd6de6f48825bb",
+      "lines": [
+        {
+          "line": 7,
+          "text": "license = \"MIT OR Apache-2.0\""
+        }
+      ]
+    },
+    {
+      "path": "crates/tls/client/Cargo.toml",
+      "sha256": "678d32d55e728c7c95ba7442a476c2e887bf71f1f5220fef4df5c783376e15a5",
+      "lines": [
+        {
+          "line": 7,
+          "text": "license = \"Apache-2.0 OR ISC OR MIT\""
+        }
+      ]
+    },
+    {
+      "path": "crates/tls/client/README.md",
+      "sha256": "469f9c356db21fbab2ddefe278f6070eb7b5a82febcb1d51f79955cd23c3654b",
+      "lines": [
+        {
+          "line": 6,
+          "text": "This crate is licensed under the same terms as rustls."
+        }
+      ]
+    },
+    {
+      "path": "crates/tls/core/Cargo.toml",
+      "sha256": "21c48aab1798817c87b5c8e5cc509bae72e0dc30b112ba968c6cb2dde26def77",
+      "lines": [
+        {
+          "line": 7,
+          "text": "license = \"Apache-2.0 OR ISC OR MIT\""
+        }
+      ]
+    },
+    {
+      "path": "crates/tls/core/README.md",
+      "sha256": "723518a941d12b1da5bd1772e3c9792f1f5e2ba74f5554f4f9c8d009916a9a1b",
+      "lines": [
+        {
+          "line": 5,
+          "text": "This crate is licensed under the same terms as rustls."
+        }
+      ]
+    },
+    {
+      "path": "crates/tls/server-fixture/Cargo.toml",
+      "sha256": "3e106f80329fb8d2da4b4ccc0d9ff4bc8dc0abd64c0fcae4e47a9576b481aab6",
+      "lines": [
+        {
+          "line": 7,
+          "text": "license = \"MIT OR Apache-2.0\""
+        }
+      ]
+    },
+    {
+      "path": "crates/tlsn/Cargo.toml",
+      "sha256": "4037eb6a76175c901c5c4da14b65264d85913951c4314de8a7f18571d31ab6ba",
+      "lines": [
+        {
+          "line": 6,
+          "text": "license = \"MIT OR Apache-2.0\""
+        }
+      ]
+    },
+    {
+      "path": "crates/wasm/Cargo.toml",
+      "sha256": "8d204790a9156bda3c81f8fddd97788deb429f05ee7aa161d4fb88b4c42137fb",
+      "lines": [
+        {
+          "line": 7,
+          "text": "license = \"MIT OR Apache-2.0\""
+        }
+      ]
+    }
+  ]
+}

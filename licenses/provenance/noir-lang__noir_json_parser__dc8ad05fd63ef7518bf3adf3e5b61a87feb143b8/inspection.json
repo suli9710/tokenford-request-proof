@@ -1,0 +1,14 @@
+{
+  "archive_url": "https://codeload.github.com/noir-lang/noir_json_parser/tar.gz/dc8ad05fd63ef7518bf3adf3e5b61a87feb143b8",
+  "archive_sha256": "538e8d40579595d279b1d270d8060ec201e572b9fa737681d41ca4e3ad67428c",
+  "locked_archive_sha256": "538e8d40579595d279b1d270d8060ec201e572b9fa737681d41ca4e3ad67428c",
+  "locked_archive_match": true,
+  "bytes": 57716,
+  "repository": "https://github.com/noir-lang/noir_json_parser",
+  "ref": "dc8ad05fd63ef7518bf3adf3e5b61a87feb143b8",
+  "archive_member_count": 44,
+  "license_notice_paths": [
+    "LICENSE"
+  ],
+  "declarations": []
+}

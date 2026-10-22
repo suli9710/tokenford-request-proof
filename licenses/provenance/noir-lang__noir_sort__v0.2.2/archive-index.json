@@ -1,0 +1,92 @@
+[
+  {
+    "path": ".github/NIGHTLY_CANARY_DIED.md",
+    "bytes": 405,
+    "sha256": "790f599b838367df66e3841bde1b0ecea17a32e8a5bd392f7b8227e6567de983"
+  },
+  {
+    "path": ".github/workflows/nightly-canary.yml",
+    "bytes": 919,
+    "sha256": "80983a516545d7507c0002404be91529918393f8360d1ccf5933b47a7fe9628b"
+  },
+  {
+    "path": ".github/workflows/pull-request-title.yml",
+    "bytes": 576,
+    "sha256": "949ae053868faad97a21cce400ced54af4ef249333fdfd21ef2185a9cd63fb35"
+  },
+  {
+    "path": ".github/workflows/release.yml",
+    "bytes": 459,
+    "sha256": "7b04d18926f6b93c266aaa6173baa5254c14119ced12dbb64ebcf4909d4c97d8"
+  },
+  {
+    "path": ".github/workflows/test.yml",
+    "bytes": 1667,
+    "sha256": "f880700eb2ed98ad002f7a3582eb8cf5a437c2d1c9dc46a7fac4c1d23f0ef98d"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 6,
+    "sha256": "34a04005bcaf206eec990bd9637d9fdb6725e0a0c0d4aebf003f17f4c956eb5c"
+  },
+  {
+    "path": ".release-please-manifest.json",
+    "bytes": 13,
+    "sha256": "3631e3166815768dabd326a9ae1b2655c811855fd636de94ad2d4146726ae94f"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "bytes": 1011,
+    "sha256": "66105d93a291168470564c2d50d163c16c242f7e22ffbdde41954790f48c0fe3"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 5318,
+    "sha256": "e628271a7e5c950c86db39002729b77bfd8c4339199826454abe796f369d5779"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 10947,
+    "sha256": "4458503dd48e88c4e0b945fb252a08b93c40ec757309b8ffa7c594dfa1e35104"
+  },
+  {
+    "path": "Nargo.toml",
+    "bytes": 193,
+    "sha256": "5cecc6db4dca1c34f03a92b3279ca4bad49091500e88ed4e0c8e1c6ec750ea98"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1690,
+    "sha256": "54ad4b21e5eb683788ecfba485485f6d829d1dbaeda8f1e4fed7dfc20737f626"
+  },
+  {
+    "path": "info.sh",
+    "bytes": 107,
+    "sha256": "b3d92d80ba26778bcbbd58546216ee4059effd230ded07f40750f74705661de9"
+  },
+  {
+    "path": "release-please-config.json",
+    "bytes": 413,
+    "sha256": "c26f6b552902441b00aab56f6b641ff6443b5a50f2884b96696460b5ba3caa34"
+  },
+  {
+    "path": "src/lib.nr",
+    "bytes": 4500,
+    "sha256": "394579d86893af81c63328e92d9581cdbbdcf8f01deb4cb30a0e3b525faa563a"
+  },
+  {
+    "path": "src/quicksort.nr",
+    "bytes": 47,
+    "sha256": "4ac05212f38d01c1e6752744d83bb78e3b14732cc78ceb40518f747ac33c9199"
+  },
+  {
+    "path": "src/quicksort/quicksort.nr",
+    "bytes": 1142,
+    "sha256": "dfbee4c61c1fc50562ce7f36c3308f74a56963a165fed424309caf6c4dd88d2e"
+  },
+  {
+    "path": "src/quicksort/quicksort_explicit.nr",
+    "bytes": 1213,
+    "sha256": "d3b43681cf8beea1f3a054af0da7327932a835d12d7202e0707d3c2f76a4c383"
+  }
+]

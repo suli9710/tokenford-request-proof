@@ -1,0 +1,9 @@
+[package]
+name = "json_parser"
+type = "lib"
+authors = [""]
+compiler_version = ">=1.0.0"
+
+[dependencies]
+noir_sort = { path = "../noir-lang__noir_sort__v0.3.0" }
+poseidon = { path = "../noir-lang__poseidon__v0.1.1" }

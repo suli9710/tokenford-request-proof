@@ -1,0 +1,12 @@
+[package]
+name = "noir_rsa"
+type = "lib"
+authors = [""]
+compiler_version = ">=1.0.0"
+version = "0.9.1"
+
+[dependencies]
+bignum = { path = "../noir-lang__noir-bignum__v0.8.0" }
+sha256 = { path = "../noir-lang__sha256__v0.2.1" }
+sha512 = { path = "../zkpassport__sha512__v0.1.0" }
+sha1 = { path = "../zac-williamson__sha1__v0.11" }

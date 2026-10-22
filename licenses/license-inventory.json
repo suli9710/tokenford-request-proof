@@ -1,0 +1,1714 @@
+{
+  "schema": 1,
+  "scope": "Original project Apache-2.0; third-party notices retain their own terms. No legal clearance is asserted.",
+  "apache_standard": {
+    "url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "bytes": 11358,
+    "local_paths": [
+      "LICENSE",
+      "licenses/Apache-2.0.txt"
+    ]
+  },
+  "upstreams": [
+    {
+      "archive_url": "https://codeload.github.com/noir-lang/keccak256/tar.gz/v0.1.1",
+      "archive_sha256": "0eaea329777a658bf0b404b6d1a5cc7296ab83bc6ded7cb90321b2c76529eac4",
+      "locked_archive_sha256": "0eaea329777a658bf0b404b6d1a5cc7296ab83bc6ded7cb90321b2c76529eac4",
+      "locked_archive_match": true,
+      "bytes": 23445,
+      "repository": "https://github.com/noir-lang/keccak256",
+      "ref": "v0.1.1",
+      "archive_member_count": 20,
+      "license_notice_paths": [],
+      "declarations": [],
+      "component_path": "zk-prototype/vendor/noir-lang__keccak256__v0.1.1",
+      "status": "UNRESOLVED",
+      "license_observed": "unresolved: no exact-version license statement or text",
+      "vendored_license_matches_locked_upstream": null,
+      "evidence": [
+        {
+          "upstream_path": "README.md",
+          "local_path": null,
+          "sha256": "6524d3fc7ca3506b8a94082fc028f1599bff3885ec80f9667bc481d4b7f21dae",
+          "source_url": "https://raw.githubusercontent.com/noir-lang/keccak256/v0.1.1/README.md",
+          "not_redistributed": true
+        },
+        {
+          "upstream_path": "Nargo.toml",
+          "local_path": null,
+          "sha256": "49056fd9a7f616a3d26e5c33d229beb279258126ff688e85e5a0f82e1ff49e13",
+          "source_url": "https://raw.githubusercontent.com/noir-lang/keccak256/v0.1.1/Nargo.toml",
+          "not_redistributed": true
+        }
+      ]
+    },
+    {
+      "archive_url": "https://codeload.github.com/noir-lang/noir-bignum/tar.gz/v0.8.0",
+      "archive_sha256": "367487c8c28e447aa6c35e561ef4484571e1afdb1647b52b355fdb44fe7e2451",
+      "locked_archive_sha256": "367487c8c28e447aa6c35e561ef4484571e1afdb1647b52b355fdb44fe7e2451",
+      "locked_archive_match": true,
+      "bytes": 65976,
+      "repository": "https://github.com/noir-lang/noir-bignum",
+      "ref": "v0.8.0",
+      "archive_member_count": 66,
+      "license_notice_paths": [
+        "LICENSE"
+      ],
+      "declarations": [],
+      "component_path": "zk-prototype/vendor/noir-lang__noir-bignum__v0.8.0",
+      "status": "verified_license_text_preserved",
+      "license_observed": "Apache-2.0 license text",
+      "vendored_license_matches_locked_upstream": true,
+      "evidence": [
+        {
+          "upstream_path": "LICENSE",
+          "local_path": "licenses/upstream/noir-lang__noir-bignum__v0.8.0/LICENSE",
+          "sha256": "4458503dd48e88c4e0b945fb252a08b93c40ec757309b8ffa7c594dfa1e35104",
+          "source_url": "https://raw.githubusercontent.com/noir-lang/noir-bignum/v0.8.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "archive_url": "https://codeload.github.com/noir-lang/noir_base64/tar.gz/v0.4.2",
+      "archive_sha256": "3286bdb660b62f3899136b041e75502b7ba5969d04446a66d0390a84e3096ec1",
+      "locked_archive_sha256": "3286bdb660b62f3899136b041e75502b7ba5969d04446a66d0390a84e3096ec1",
+      "locked_archive_match": true,
+      "bytes": 23114,
+      "repository": "https://github.com/noir-lang/noir_base64",
+      "ref": "v0.4.2",
+      "archive_member_count": 22,
+      "license_notice_paths": [
+        "LICENSE"
+      ],
+      "declarations": [],
+      "component_path": "zk-prototype/vendor/noir-lang__noir_base64__v0.4.2",
+      "status": "verified_license_text_preserved",
+      "license_observed": "Apache-2.0 license text",
+      "vendored_license_matches_locked_upstream": true,
+      "evidence": [
+        {
+          "upstream_path": "LICENSE",
+          "local_path": "licenses/upstream/noir-lang__noir_base64__v0.4.2/LICENSE",
+          "sha256": "e7c3764adeb87abf90693f43d460e1684ae3d306cfd136b5f7564c90e23b2afe",
+          "source_url": "https://raw.githubusercontent.com/noir-lang/noir_base64/v0.4.2/LICENSE"
+        }
+      ]
+    },
+    {
+      "archive_url": "https://codeload.github.com/noir-lang/noir_check_shuffle/tar.gz/v0.2.0",
+      "archive_sha256": "6348236521163ff9da7e7472c437ca00197c393d4f842e5058afc7705f75a493",
+      "locked_archive_sha256": "6348236521163ff9da7e7472c437ca00197c393d4f842e5058afc7705f75a493",
+      "locked_archive_match": true,
+      "bytes": 8891,
+      "repository": "https://github.com/noir-lang/noir_check_shuffle",
+      "ref": "v0.2.0",
+      "archive_member_count": 14,
+      "license_notice_paths": [
+        "LICENSE"
+      ],
+      "declarations": [],
+      "component_path": "zk-prototype/vendor/noir-lang__noir_check_shuffle__v0.2.0",
+      "status": "verified_license_text_preserved",
+      "license_observed": "Apache-2.0 license text",
+      "vendored_license_matches_locked_upstream": true,
+      "evidence": [
+        {
+          "upstream_path": "LICENSE",
+          "local_path": "licenses/upstream/noir-lang__noir_check_shuffle__v0.2.0/LICENSE",
+          "sha256": "4458503dd48e88c4e0b945fb252a08b93c40ec757309b8ffa7c594dfa1e35104",
+          "source_url": "https://raw.githubusercontent.com/noir-lang/noir_check_shuffle/v0.2.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "archive_url": "https://codeload.github.com/noir-lang/noir_check_shuffle/tar.gz/v0.2.1",
+      "archive_sha256": "e752c59a70ee777898f452835ae845ff9ee45ab86f1c1fb25461802538042158",
+      "locked_archive_sha256": "e752c59a70ee777898f452835ae845ff9ee45ab86f1c1fb25461802538042158",
+      "locked_archive_match": true,
+      "bytes": 9055,
+      "repository": "https://github.com/noir-lang/noir_check_shuffle",
+      "ref": "v0.2.1",
+      "archive_member_count": 15,
+      "license_notice_paths": [
+        "LICENSE"
+      ],
+      "declarations": [],
+      "component_path": "zk-prototype/vendor/noir-lang__noir_check_shuffle__v0.2.1",
+      "status": "verified_license_text_preserved",
+      "license_observed": "Apache-2.0 license text",
+      "vendored_license_matches_locked_upstream": true,
+      "evidence": [
+        {
+          "upstream_path": "LICENSE",
+          "local_path": "licenses/upstream/noir-lang__noir_check_shuffle__v0.2.1/LICENSE",
+          "sha256": "4458503dd48e88c4e0b945fb252a08b93c40ec757309b8ffa7c594dfa1e35104",
+          "source_url": "https://raw.githubusercontent.com/noir-lang/noir_check_shuffle/v0.2.1/LICENSE"
+        }
+      ]
+    },
+    {
+      "archive_url": "https://codeload.github.com/noir-lang/noir_json_parser/tar.gz/7c28610067af182d4b03bde406f1b3dfbbaa6f1f",
+      "archive_sha256": "102204b090ef53fd8d0aa0bb273981ab0db769582df297f0ec3bcb836ff5f30f",
+      "locked_archive_sha256": "102204b090ef53fd8d0aa0bb273981ab0db769582df297f0ec3bcb836ff5f30f",
+      "locked_archive_match": true,
+      "bytes": 62194,
+      "repository": "https://github.com/noir-lang/noir_json_parser",
+      "ref": "7c28610067af182d4b03bde406f1b3dfbbaa6f1f",
+      "archive_member_count": 44,
+      "license_notice_paths": [
+        "LICENSE"
+      ],
+      "declarations": [
+        {
+          "path": "README.md",
+          "sha256": "7c1bdf78af9c849c7b302cc2b59649dec2c24d14e6a77afaa7d6c8959224ce07",
+          "lines": [
+            {
+              "line": 6,
+              "text": "> noir_json_parser is provided \"as is\", without warranty of any kind (see [LICENSE](LICENSE)). Bugs in this library can lead to under-constrained circuits, allowing invalid proofs to be accepted. Do not rely on it to protect real assets or sensitive data without your own independent review."
+            }
+          ]
+        }
+      ],
+      "component_path": "zk-prototype/vendor/noir-lang__noir_json_parser__7c28610067af182d4b03bde406f1b3dfbbaa6f1f",
+      "status": "verified_license_text_preserved",
+      "license_observed": "Apache-2.0 license text",
+      "vendored_license_matches_locked_upstream": true,
+      "evidence": [
+        {
+          "upstream_path": "LICENSE",
+          "local_path": "licenses/upstream/noir-lang__noir_json_parser__7c28610067af182d4b03bde406f1b3dfbbaa6f1f/LICENSE",
+          "sha256": "6e6938e192dd643c13add5af287af194d5b40e5b42de57fcf5750b7e2511201b",
+          "source_url": "https://raw.githubusercontent.com/noir-lang/noir_json_parser/7c28610067af182d4b03bde406f1b3dfbbaa6f1f/LICENSE"
+        }
+      ]
+    },
+    {
+      "archive_url": "https://codeload.github.com/noir-lang/noir_json_parser/tar.gz/dc8ad05fd63ef7518bf3adf3e5b61a87feb143b8",
+      "archive_sha256": "538e8d40579595d279b1d270d8060ec201e572b9fa737681d41ca4e3ad67428c",
+      "locked_archive_sha256": "538e8d40579595d279b1d270d8060ec201e572b9fa737681d41ca4e3ad67428c",
+      "locked_archive_match": true,
+      "bytes": 57716,
+      "repository": "https://github.com/noir-lang/noir_json_parser",
+      "ref": "dc8ad05fd63ef7518bf3adf3e5b61a87feb143b8",
+      "archive_member_count": 44,
+      "license_notice_paths": [
+        "LICENSE"
+      ],
+      "declarations": [],
+      "component_path": "zk-prototype/vendor/noir-lang__noir_json_parser__dc8ad05fd63ef7518bf3adf3e5b61a87feb143b8",
+      "status": "verified_license_text_preserved",
+      "license_observed": "Apache-2.0 license text",
+      "vendored_license_matches_locked_upstream": true,
+      "evidence": [
+        {
+          "upstream_path": "LICENSE",
+          "local_path": "licenses/upstream/noir-lang__noir_json_parser__dc8ad05fd63ef7518bf3adf3e5b61a87feb143b8/LICENSE",
+          "sha256": "4458503dd48e88c4e0b945fb252a08b93c40ec757309b8ffa7c594dfa1e35104",
+          "source_url": "https://raw.githubusercontent.com/noir-lang/noir_json_parser/dc8ad05fd63ef7518bf3adf3e5b61a87feb143b8/LICENSE"
+        }
+      ]
+    },
+    {
+      "archive_url": "https://codeload.github.com/noir-lang/noir_json_parser/tar.gz/v0.4.0",
+      "archive_sha256": "d4a575fd34aebe9cd5a18ee2d98c8d3e034da2147e9d61a3cee131742e1b965e",
+      "locked_archive_sha256": "d4a575fd34aebe9cd5a18ee2d98c8d3e034da2147e9d61a3cee131742e1b965e",
+      "locked_archive_match": true,
+      "bytes": 57073,
+      "repository": "https://github.com/noir-lang/noir_json_parser",
+      "ref": "v0.4.0",
+      "archive_member_count": 39,
+      "license_notice_paths": [
+        "LICENSE"
+      ],
+      "declarations": [],
+      "component_path": "zk-prototype/vendor/noir-lang__noir_json_parser__v0.4.0",
+      "status": "verified_license_text_preserved",
+      "license_observed": "Apache-2.0 license text",
+      "vendored_license_matches_locked_upstream": true,
+      "evidence": [
+        {
+          "upstream_path": "LICENSE",
+          "local_path": "licenses/upstream/noir-lang__noir_json_parser__v0.4.0/LICENSE",
+          "sha256": "4458503dd48e88c4e0b945fb252a08b93c40ec757309b8ffa7c594dfa1e35104",
+          "source_url": "https://raw.githubusercontent.com/noir-lang/noir_json_parser/v0.4.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "archive_url": "https://codeload.github.com/noir-lang/noir_sort/tar.gz/v0.2.2",
+      "archive_sha256": "0f217e27947ce9741678e8a2089868aca3ca42f1bb1c9b5be24c417dba7112cb",
+      "locked_archive_sha256": "0f217e27947ce9741678e8a2089868aca3ca42f1bb1c9b5be24c417dba7112cb",
+      "locked_archive_match": true,
+      "bytes": 11016,
+      "repository": "https://github.com/noir-lang/noir_sort",
+      "ref": "v0.2.2",
+      "archive_member_count": 18,
+      "license_notice_paths": [
+        "LICENSE"
+      ],
+      "declarations": [],
+      "component_path": "zk-prototype/vendor/noir-lang__noir_sort__v0.2.2",
+      "status": "verified_license_text_preserved",
+      "license_observed": "Apache-2.0 license text",
+      "vendored_license_matches_locked_upstream": true,
+      "evidence": [
+        {
+          "upstream_path": "LICENSE",
+          "local_path": "licenses/upstream/noir-lang__noir_sort__v0.2.2/LICENSE",
+          "sha256": "4458503dd48e88c4e0b945fb252a08b93c40ec757309b8ffa7c594dfa1e35104",
+          "source_url": "https://raw.githubusercontent.com/noir-lang/noir_sort/v0.2.2/LICENSE"
+        }
+      ]
+    },
+    {
+      "archive_url": "https://codeload.github.com/noir-lang/noir_sort/tar.gz/v0.3.0",
+      "archive_sha256": "df04fd034f70b3d6d0baeef57e1eab063fde7faf7854b3b5a27c87cea6fa7117",
+      "locked_archive_sha256": "df04fd034f70b3d6d0baeef57e1eab063fde7faf7854b3b5a27c87cea6fa7117",
+      "locked_archive_match": true,
+      "bytes": 12306,
+      "repository": "https://github.com/noir-lang/noir_sort",
+      "ref": "v0.3.0",
+      "archive_member_count": 18,
+      "license_notice_paths": [
+        "LICENSE"
+      ],
+      "declarations": [],
+      "component_path": "zk-prototype/vendor/noir-lang__noir_sort__v0.3.0",
+      "status": "verified_license_text_preserved",
+      "license_observed": "Apache-2.0 license text",
+      "vendored_license_matches_locked_upstream": true,
+      "evidence": [
+        {
+          "upstream_path": "LICENSE",
+          "local_path": "licenses/upstream/noir-lang__noir_sort__v0.3.0/LICENSE",
+          "sha256": "4458503dd48e88c4e0b945fb252a08b93c40ec757309b8ffa7c594dfa1e35104",
+          "source_url": "https://raw.githubusercontent.com/noir-lang/noir_sort/v0.3.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "archive_url": "https://codeload.github.com/noir-lang/noir_sort/tar.gz/v0.4.0",
+      "archive_sha256": "89998405a869a4537a5b74df50c5f9170a10aecf7776581525d59f6118d29b1a",
+      "locked_archive_sha256": "89998405a869a4537a5b74df50c5f9170a10aecf7776581525d59f6118d29b1a",
+      "locked_archive_match": true,
+      "bytes": 12384,
+      "repository": "https://github.com/noir-lang/noir_sort",
+      "ref": "v0.4.0",
+      "archive_member_count": 18,
+      "license_notice_paths": [
+        "LICENSE"
+      ],
+      "declarations": [],
+      "component_path": "zk-prototype/vendor/noir-lang__noir_sort__v0.4.0",
+      "status": "verified_license_text_preserved",
+      "license_observed": "Apache-2.0 license text",
+      "vendored_license_matches_locked_upstream": true,
+      "evidence": [
+        {
+          "upstream_path": "LICENSE",
+          "local_path": "licenses/upstream/noir-lang__noir_sort__v0.4.0/LICENSE",
+          "sha256": "4458503dd48e88c4e0b945fb252a08b93c40ec757309b8ffa7c594dfa1e35104",
+          "source_url": "https://raw.githubusercontent.com/noir-lang/noir_sort/v0.4.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "archive_url": "https://codeload.github.com/noir-lang/noir_string_search/tar.gz/v0.3.3",
+      "archive_sha256": "79069f4aa816cc247260ad69d57406b0bee1e7fd6c4846ad5b84981f86cbd59b",
+      "locked_archive_sha256": "79069f4aa816cc247260ad69d57406b0bee1e7fd6c4846ad5b84981f86cbd59b",
+      "locked_archive_match": true,
+      "bytes": 17276,
+      "repository": "https://github.com/noir-lang/noir_string_search",
+      "ref": "v0.3.3",
+      "archive_member_count": 15,
+      "license_notice_paths": [
+        "LICENSE"
+      ],
+      "declarations": [],
+      "component_path": "zk-prototype/vendor/noir-lang__noir_string_search__v0.3.3",
+      "status": "verified_license_text_preserved",
+      "license_observed": "Apache-2.0 license text",
+      "vendored_license_matches_locked_upstream": true,
+      "evidence": [
+        {
+          "upstream_path": "LICENSE",
+          "local_path": "licenses/upstream/noir-lang__noir_string_search__v0.3.3/LICENSE",
+          "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+          "source_url": "https://raw.githubusercontent.com/noir-lang/noir_string_search/v0.3.3/LICENSE"
+        }
+      ]
+    },
+    {
+      "archive_url": "https://codeload.github.com/noir-lang/poseidon/tar.gz/v0.1.1",
+      "archive_sha256": "1e380ed733b660798c749541cfe3827a760e03b05d4af3a27d60be5734bad6fe",
+      "locked_archive_sha256": "1e380ed733b660798c749541cfe3827a760e03b05d4af3a27d60be5734bad6fe",
+      "locked_archive_match": true,
+      "bytes": 926539,
+      "repository": "https://github.com/noir-lang/poseidon",
+      "ref": "v0.1.1",
+      "archive_member_count": 27,
+      "license_notice_paths": [
+        "LICENSE"
+      ],
+      "declarations": [],
+      "component_path": "zk-prototype/vendor/noir-lang__poseidon__v0.1.1",
+      "status": "verified_license_text_preserved",
+      "license_observed": "Apache-2.0 license text",
+      "vendored_license_matches_locked_upstream": true,
+      "evidence": [
+        {
+          "upstream_path": "LICENSE",
+          "local_path": "licenses/upstream/noir-lang__poseidon__v0.1.1/LICENSE",
+          "sha256": "4458503dd48e88c4e0b945fb252a08b93c40ec757309b8ffa7c594dfa1e35104",
+          "source_url": "https://raw.githubusercontent.com/noir-lang/poseidon/v0.1.1/LICENSE"
+        }
+      ]
+    },
+    {
+      "archive_url": "https://codeload.github.com/noir-lang/poseidon/tar.gz/v0.3.0",
+      "archive_sha256": "cd47b33bdf4b850209c467624770c655078ce8174f95482b1aaacb05eaf2e375",
+      "locked_archive_sha256": "cd47b33bdf4b850209c467624770c655078ce8174f95482b1aaacb05eaf2e375",
+      "locked_archive_match": true,
+      "bytes": 938639,
+      "repository": "https://github.com/noir-lang/poseidon",
+      "ref": "v0.3.0",
+      "archive_member_count": 30,
+      "license_notice_paths": [
+        "LICENSE"
+      ],
+      "declarations": [],
+      "component_path": "zk-prototype/vendor/noir-lang__poseidon__v0.3.0",
+      "status": "verified_license_text_preserved",
+      "license_observed": "Apache-2.0 license text",
+      "vendored_license_matches_locked_upstream": true,
+      "evidence": [
+        {
+          "upstream_path": "LICENSE",
+          "local_path": "licenses/upstream/noir-lang__poseidon__v0.3.0/LICENSE",
+          "sha256": "4458503dd48e88c4e0b945fb252a08b93c40ec757309b8ffa7c594dfa1e35104",
+          "source_url": "https://raw.githubusercontent.com/noir-lang/poseidon/v0.3.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "archive_url": "https://codeload.github.com/noir-lang/sha256/tar.gz/v0.2.1",
+      "archive_sha256": "bbac7548b03a99ca0be27bbe1e7292c40767a603893bd58a30811ee7204f5b52",
+      "locked_archive_sha256": "bbac7548b03a99ca0be27bbe1e7292c40767a603893bd58a30811ee7204f5b52",
+      "locked_archive_match": true,
+      "bytes": 36271,
+      "repository": "https://github.com/noir-lang/sha256",
+      "ref": "v0.2.1",
+      "archive_member_count": 24,
+      "license_notice_paths": [],
+      "declarations": [],
+      "component_path": "zk-prototype/vendor/noir-lang__sha256__v0.2.1",
+      "status": "UNRESOLVED",
+      "license_observed": "unresolved: no exact-version license statement or text",
+      "vendored_license_matches_locked_upstream": null,
+      "evidence": [
+        {
+          "upstream_path": "README.md",
+          "local_path": null,
+          "sha256": "23bef155401f0639500ba201cf9a13ec4cfa65df39e98391acc4caabb95dfdb9",
+          "source_url": "https://raw.githubusercontent.com/noir-lang/sha256/v0.2.1/README.md",
+          "not_redistributed": true
+        },
+        {
+          "upstream_path": "Nargo.toml",
+          "local_path": null,
+          "sha256": "b74e83c6dd7560e15a7c7fb5352f1a64d81e44d0981f4281115e510e3efe550f",
+          "source_url": "https://raw.githubusercontent.com/noir-lang/sha256/v0.2.1/Nargo.toml",
+          "not_redistributed": true
+        }
+      ]
+    },
+    {
+      "archive_url": "https://codeload.github.com/olehmisar/nodash/tar.gz/v0.42.0",
+      "archive_sha256": "d0a3aed81ed5418b21d989bfaccd54ca7acb82c28b8fafa1f737718d5ab77d35",
+      "locked_archive_sha256": "d0a3aed81ed5418b21d989bfaccd54ca7acb82c28b8fafa1f737718d5ab77d35",
+      "locked_archive_match": true,
+      "bytes": 9854,
+      "repository": "https://github.com/olehmisar/nodash",
+      "ref": "v0.42.0",
+      "archive_member_count": 19,
+      "license_notice_paths": [],
+      "declarations": [],
+      "component_path": "zk-prototype/vendor/olehmisar__nodash__v0.42.0",
+      "status": "UNRESOLVED",
+      "license_observed": "unresolved: no exact-version license statement or text",
+      "vendored_license_matches_locked_upstream": null,
+      "evidence": [
+        {
+          "upstream_path": "README.md",
+          "local_path": null,
+          "sha256": "1af9a0c18089a25f6c7bbfda333e713a6e30772ff312ea6517e26edb5c8f5ffa",
+          "source_url": "https://raw.githubusercontent.com/olehmisar/nodash/v0.42.0/README.md",
+          "not_redistributed": true
+        },
+        {
+          "upstream_path": "Nargo.toml",
+          "local_path": null,
+          "sha256": "7316408fa3936ecea250a9e4282d58baa74f2ebc57c806a7f3f5ca7283911440",
+          "source_url": "https://raw.githubusercontent.com/olehmisar/nodash/v0.42.0/Nargo.toml",
+          "not_redistributed": true
+        }
+      ]
+    },
+    {
+      "archive_url": "https://codeload.github.com/tlsnotary/tlsn/tar.gz/9a3d73c5bdeeab0255bdb05c89116554cebf6dbe",
+      "archive_sha256": "fb6277f833f5763b0fbefd423e1f3e615269b0430e9729b3b602626c6d165811",
+      "locked_archive_sha256": null,
+      "locked_archive_match": null,
+      "bytes": 626442,
+      "repository": "https://github.com/tlsnotary/tlsn",
+      "ref": "9a3d73c5bdeeab0255bdb05c89116554cebf6dbe",
+      "archive_member_count": 523,
+      "license_notice_paths": [],
+      "declarations": [
+        {
+          "path": "README.md",
+          "sha256": "7ead822dbab7bc91b145112754c6df60fdb0bfdb98a8cf92da82a196b15f424b",
+          "lines": [
+            {
+              "line": 5,
+              "text": "![MIT licensed][mit-badge]"
+            },
+            {
+              "line": 6,
+              "text": "![Apache licensed][apache-badge]"
+            },
+            {
+              "line": 9,
+              "text": "[mit-badge]: https://img.shields.io/badge/license-MIT-blue.svg"
+            },
+            {
+              "line": 10,
+              "text": "[apache-badge]: https://img.shields.io/github/license/saltstack/salt"
+            },
+            {
+              "line": 27,
+              "text": "## License"
+            },
+            {
+              "line": 28,
+              "text": "All crates in this repository are licensed under either of"
+            },
+            {
+              "line": 30,
+              "text": "- [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)"
+            },
+            {
+              "line": 31,
+              "text": "- [MIT license](http://opensource.org/licenses/MIT)"
+            },
+            {
+              "line": 74,
+              "text": "for inclusion in the work by you, as defined in the Apache-2.0 license, shall be"
+            },
+            {
+              "line": 75,
+              "text": "dual licensed as above, without any additional terms or conditions."
+            }
+          ]
+        },
+        {
+          "path": "crates/components/cipher/Cargo.toml",
+          "sha256": "90150487ccb9df8ebf6bc57f6a7c131c75e7e7e0a05ef16980073fb724035225",
+          "lines": [
+            {
+              "line": 7,
+              "text": "license = \"MIT OR Apache-2.0\""
+            }
+          ]
+        },
+        {
+          "path": "crates/components/hmac-sha256/Cargo.toml",
+          "sha256": "814f23b89cc6de38e465ff88d5ca4f15c7b85f544da701e43c5e7ff93d3c2802",
+          "lines": [
+            {
+              "line": 7,
+              "text": "license = \"MIT OR Apache-2.0\""
+            }
+          ]
+        },
+        {
+          "path": "crates/components/key-exchange/Cargo.toml",
+          "sha256": "06d62ff6c43f570c37e7236e1b33d57a3a83cc0c557002c43c38904fa2bc87e1",
+          "lines": [
+            {
+              "line": 7,
+              "text": "license = \"MIT OR Apache-2.0\""
+            }
+          ]
+        },
+        {
+          "path": "crates/core/Cargo.toml",
+          "sha256": "83eed851a92af39f38ba99bd44fc25cff3beeb2ae08b6f792bf121104b40fb23",
+          "lines": [
+            {
+              "line": 7,
+              "text": "license = \"MIT OR Apache-2.0\""
+            }
+          ]
+        },
+        {
+          "path": "crates/mpc-tls/Cargo.toml",
+          "sha256": "dbef9d7c78830ed1b5e0c4b3dd3775ddffdd91e54450de4c8fc7d32f7ce37807",
+          "lines": [
+            {
+              "line": 7,
+              "text": "license = \"MIT OR Apache-2.0\""
+            }
+          ]
+        },
+        {
+          "path": "crates/tls/backend/Cargo.toml",
+          "sha256": "bf8538434049e519563116fe97d1911480889cac887b0f1d8714d8486f121da8",
+          "lines": [
+            {
+              "line": 7,
+              "text": "license = \"MIT OR Apache-2.0\""
+            }
+          ]
+        },
+        {
+          "path": "crates/tls/client-async/Cargo.toml",
+          "sha256": "1958e11364e6707b144cbd13c21ccb8c7baaf2fae8e164358afd6de6f48825bb",
+          "lines": [
+            {
+              "line": 7,
+              "text": "license = \"MIT OR Apache-2.0\""
+            }
+          ]
+        },
+        {
+          "path": "crates/tls/client/Cargo.toml",
+          "sha256": "678d32d55e728c7c95ba7442a476c2e887bf71f1f5220fef4df5c783376e15a5",
+          "lines": [
+            {
+              "line": 7,
+              "text": "license = \"Apache-2.0 OR ISC OR MIT\""
+            }
+          ]
+        },
+        {
+          "path": "crates/tls/client/README.md",
+          "sha256": "469f9c356db21fbab2ddefe278f6070eb7b5a82febcb1d51f79955cd23c3654b",
+          "lines": [
+            {
+              "line": 6,
+              "text": "This crate is licensed under the same terms as rustls."
+            }
+          ]
+        },
+        {
+          "path": "crates/tls/core/Cargo.toml",
+          "sha256": "21c48aab1798817c87b5c8e5cc509bae72e0dc30b112ba968c6cb2dde26def77",
+          "lines": [
+            {
+              "line": 7,
+              "text": "license = \"Apache-2.0 OR ISC OR MIT\""
+            }
+          ]
+        },
+        {
+          "path": "crates/tls/core/README.md",
+          "sha256": "723518a941d12b1da5bd1772e3c9792f1f5e2ba74f5554f4f9c8d009916a9a1b",
+          "lines": [
+            {
+              "line": 5,
+              "text": "This crate is licensed under the same terms as rustls."
+            }
+          ]
+        },
+        {
+          "path": "crates/tls/server-fixture/Cargo.toml",
+          "sha256": "3e106f80329fb8d2da4b4ccc0d9ff4bc8dc0abd64c0fcae4e47a9576b481aab6",
+          "lines": [
+            {
+              "line": 7,
+              "text": "license = \"MIT OR Apache-2.0\""
+            }
+          ]
+        },
+        {
+          "path": "crates/tlsn/Cargo.toml",
+          "sha256": "4037eb6a76175c901c5c4da14b65264d85913951c4314de8a7f18571d31ab6ba",
+          "lines": [
+            {
+              "line": 6,
+              "text": "license = \"MIT OR Apache-2.0\""
+            }
+          ]
+        },
+        {
+          "path": "crates/wasm/Cargo.toml",
+          "sha256": "8d204790a9156bda3c81f8fddd97788deb429f05ee7aa161d4fb88b4c42137fb",
+          "lines": [
+            {
+              "line": 7,
+              "text": "license = \"MIT OR Apache-2.0\""
+            }
+          ]
+        }
+      ],
+      "selected_license": "Apache-2.0",
+      "selection_basis": "Pinned README expressly offers Apache-2.0 or MIT for all crates. TLS client/core also list Apache-2.0 OR ISC OR MIT.",
+      "upstream_license_notice_files_absent": true,
+      "evidence": [
+        {
+          "upstream_path": "README.md",
+          "local_path": "licenses/provenance/tlsnotary-tlsn-9a3d73c5bdeeab0255bdb05c89116554cebf6dbe/README.md",
+          "sha256": "7ead822dbab7bc91b145112754c6df60fdb0bfdb98a8cf92da82a196b15f424b",
+          "source_url": "https://raw.githubusercontent.com/tlsnotary/tlsn/9a3d73c5bdeeab0255bdb05c89116554cebf6dbe/README.md"
+        },
+        {
+          "upstream_path": "Cargo.toml",
+          "local_path": "licenses/provenance/tlsnotary-tlsn-9a3d73c5bdeeab0255bdb05c89116554cebf6dbe/Cargo.toml",
+          "sha256": "dd1acd27068b14553131bef6eaf9c9cdce9de2610914a65c4c1915bfe25c43b6",
+          "source_url": "https://raw.githubusercontent.com/tlsnotary/tlsn/9a3d73c5bdeeab0255bdb05c89116554cebf6dbe/Cargo.toml"
+        },
+        {
+          "upstream_path": "crates/tls/client/README.md",
+          "local_path": "licenses/provenance/tlsnotary-tlsn-9a3d73c5bdeeab0255bdb05c89116554cebf6dbe/crates/tls/client/README.md",
+          "sha256": "469f9c356db21fbab2ddefe278f6070eb7b5a82febcb1d51f79955cd23c3654b",
+          "source_url": "https://raw.githubusercontent.com/tlsnotary/tlsn/9a3d73c5bdeeab0255bdb05c89116554cebf6dbe/crates/tls/client/README.md"
+        },
+        {
+          "upstream_path": "crates/tls/core/README.md",
+          "local_path": "licenses/provenance/tlsnotary-tlsn-9a3d73c5bdeeab0255bdb05c89116554cebf6dbe/crates/tls/core/README.md",
+          "sha256": "723518a941d12b1da5bd1772e3c9792f1f5e2ba74f5554f4f9c8d009916a9a1b",
+          "source_url": "https://raw.githubusercontent.com/tlsnotary/tlsn/9a3d73c5bdeeab0255bdb05c89116554cebf6dbe/crates/tls/core/README.md"
+        }
+      ]
+    },
+    {
+      "archive_url": "https://codeload.github.com/zac-williamson/sha1/tar.gz/v0.11",
+      "archive_sha256": "ca8bd58410ab1dd21af261ad528e8b665d843be5b9b59b15449feb7f07080f87",
+      "locked_archive_sha256": "ca8bd58410ab1dd21af261ad528e8b665d843be5b9b59b15449feb7f07080f87",
+      "locked_archive_match": true,
+      "bytes": 34796,
+      "repository": "https://github.com/zac-williamson/sha1",
+      "ref": "v0.11",
+      "archive_member_count": 25,
+      "license_notice_paths": [
+        "LICENSE"
+      ],
+      "declarations": [],
+      "component_path": "zk-prototype/vendor/zac-williamson__sha1__v0.11",
+      "status": "verified_license_text_preserved",
+      "license_observed": "Apache-2.0 license text",
+      "vendored_license_matches_locked_upstream": true,
+      "evidence": [
+        {
+          "upstream_path": "LICENSE",
+          "local_path": "licenses/upstream/zac-williamson__sha1__v0.11/LICENSE",
+          "sha256": "4458503dd48e88c4e0b945fb252a08b93c40ec757309b8ffa7c594dfa1e35104",
+          "source_url": "https://raw.githubusercontent.com/zac-williamson/sha1/v0.11/LICENSE"
+        }
+      ]
+    },
+    {
+      "archive_url": "https://codeload.github.com/zkemail/noir-jwt/tar.gz/v0.5.1",
+      "archive_sha256": "4988ab0fb25dd77f8ef695a7134d83959b4de40de04185119335176c47552479",
+      "locked_archive_sha256": "4988ab0fb25dd77f8ef695a7134d83959b4de40de04185119335176c47552479",
+      "locked_archive_match": true,
+      "bytes": 29656,
+      "repository": "https://github.com/zkemail/noir-jwt",
+      "ref": "v0.5.1",
+      "archive_member_count": 14,
+      "license_notice_paths": [
+        "LICENSE"
+      ],
+      "declarations": [
+        {
+          "path": "js/package-lock.json",
+          "sha256": "99633ae169ef1fc130804cd952a714c2ed3d1cb53d8388367a416511671d4294",
+          "lines": [
+            {
+              "line": 10,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 26,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 43,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 60,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 77,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 94,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 111,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 128,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 145,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 162,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 179,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 196,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 213,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 230,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 247,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 264,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 281,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 298,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 315,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 332,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 349,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 366,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 383,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 400,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 417,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 434,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 448,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 459,
+              "text": "\"license\": \"MIT\""
+            },
+            {
+              "line": 466,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 476,
+              "text": "\"license\": \"BSD-3-Clause\""
+            },
+            {
+              "line": 483,
+              "text": "\"license\": \"Apache-2.0\","
+            },
+            {
+              "line": 494,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 535,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 549,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 562,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 585,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 597,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 608,
+              "text": "\"license\": \"MIT\""
+            },
+            {
+              "line": 615,
+              "text": "\"license\": \"MIT\""
+            },
+            {
+              "line": 622,
+              "text": "\"license\": \"MIT\""
+            },
+            {
+              "line": 629,
+              "text": "\"license\": \"MIT\""
+            },
+            {
+              "line": 636,
+              "text": "\"license\": \"MIT\""
+            },
+            {
+              "line": 643,
+              "text": "\"license\": \"MIT\""
+            },
+            {
+              "line": 650,
+              "text": "\"license\": \"MIT\""
+            },
+            {
+              "line": 657,
+              "text": "\"license\": \"MIT\""
+            },
+            {
+              "line": 664,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 688,
+              "text": "\"license\": \"MIT\""
+            },
+            {
+              "line": 695,
+              "text": "\"license\": \"ISC\","
+            },
+            {
+              "line": 708,
+              "text": "\"license\": \"MIT\","
+            },
+            {
+              "line": 728,
+              "text": "\"license\": \"Apache-2.0\","
+            },
+            {
+              "line": 742,
+              "text": "\"license\": \"MIT\""
+            }
+          ]
+        },
+        {
+          "path": "js/package.json",
+          "sha256": "b1350ba5b11b779528e95cc89c7b9e3bce8e27a7b71f07446fe1812525c3ccc0",
+          "lines": [
+            {
+              "line": 38,
+              "text": "\"license\": \"MIT\","
+            }
+          ]
+        }
+      ],
+      "component_path": "zk-prototype/vendor/zkemail__noir-jwt__v0.5.1",
+      "status": "verified_license_text_preserved",
+      "license_observed": "Apache-2.0 license text",
+      "vendored_license_matches_locked_upstream": true,
+      "evidence": [
+        {
+          "upstream_path": "LICENSE",
+          "local_path": "licenses/upstream/zkemail__noir-jwt__v0.5.1/LICENSE",
+          "sha256": "4458503dd48e88c4e0b945fb252a08b93c40ec757309b8ffa7c594dfa1e35104",
+          "source_url": "https://raw.githubusercontent.com/zkemail/noir-jwt/v0.5.1/LICENSE"
+        }
+      ]
+    },
+    {
+      "archive_url": "https://codeload.github.com/zkpassport/noir_rsa/tar.gz/v0.9.1",
+      "archive_sha256": "ecc03d9edb15249cdf26e663772a8857b35e516ce89d57450503dec5ad67f78c",
+      "locked_archive_sha256": "ecc03d9edb15249cdf26e663772a8857b35e516ce89d57450503dec5ad67f78c",
+      "locked_archive_match": true,
+      "bytes": 46801,
+      "repository": "https://github.com/zkpassport/noir_rsa",
+      "ref": "v0.9.1",
+      "archive_member_count": 24,
+      "license_notice_paths": [
+        "LICENSE"
+      ],
+      "declarations": [],
+      "component_path": "zk-prototype/vendor/zkpassport__noir_rsa__v0.9.1",
+      "status": "verified_license_text_preserved",
+      "license_observed": "Apache-2.0 license text",
+      "vendored_license_matches_locked_upstream": true,
+      "evidence": [
+        {
+          "upstream_path": "LICENSE",
+          "local_path": "licenses/upstream/zkpassport__noir_rsa__v0.9.1/LICENSE",
+          "sha256": "4458503dd48e88c4e0b945fb252a08b93c40ec757309b8ffa7c594dfa1e35104",
+          "source_url": "https://raw.githubusercontent.com/zkpassport/noir_rsa/v0.9.1/LICENSE"
+        }
+      ]
+    },
+    {
+      "archive_url": "https://codeload.github.com/zkpassport/sha512/tar.gz/v0.1.0",
+      "archive_sha256": "9a84ba7beaa17540300e96a7e5128809eedbab128a47817c1e6b7967f1efe148",
+      "locked_archive_sha256": "9a84ba7beaa17540300e96a7e5128809eedbab128a47817c1e6b7967f1efe148",
+      "locked_archive_match": true,
+      "bytes": 48477,
+      "repository": "https://github.com/zkpassport/sha512",
+      "ref": "v0.1.0",
+      "archive_member_count": 25,
+      "license_notice_paths": [
+        "LICENSE"
+      ],
+      "declarations": [],
+      "component_path": "zk-prototype/vendor/zkpassport__sha512__v0.1.0",
+      "status": "verified_license_text_preserved",
+      "license_observed": "Apache-2.0 license text",
+      "vendored_license_matches_locked_upstream": true,
+      "evidence": [
+        {
+          "upstream_path": "LICENSE",
+          "local_path": "licenses/upstream/zkpassport__sha512__v0.1.0/LICENSE",
+          "sha256": "4458503dd48e88c4e0b945fb252a08b93c40ec757309b8ffa7c594dfa1e35104",
+          "source_url": "https://raw.githubusercontent.com/zkpassport/sha512/v0.1.0/LICENSE"
+        }
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "component": "noir-lang__keccak256__v0.1.1",
+      "archive_sha256": "0eaea329777a658bf0b404b6d1a5cc7296ab83bc6ded7cb90321b2c76529eac4",
+      "reason": "Locked exact-version archive contains no license/copyright/SPDX declaration or LICENSE/COPYING/NOTICE file. Cannot infer authorization or relicense under the project Apache-2.0 grant.",
+      "required_resolution": "Obtain a license grant applicable to this exact version from its rights holder, or replace/remove this dependency in a separately reviewed source change.",
+      "evidence_index": "licenses/provenance/noir-lang__keccak256__v0.1.1/archive-index.json",
+      "evidence_inspection": "licenses/provenance/noir-lang__keccak256__v0.1.1/inspection.json"
+    },
+    {
+      "component": "noir-lang__sha256__v0.2.1",
+      "archive_sha256": "bbac7548b03a99ca0be27bbe1e7292c40767a603893bd58a30811ee7204f5b52",
+      "reason": "Locked exact-version archive contains no license/copyright/SPDX declaration or LICENSE/COPYING/NOTICE file. Cannot infer authorization or relicense under the project Apache-2.0 grant.",
+      "required_resolution": "Obtain a license grant applicable to this exact version from its rights holder, or replace/remove this dependency in a separately reviewed source change.",
+      "evidence_index": "licenses/provenance/noir-lang__sha256__v0.2.1/archive-index.json",
+      "evidence_inspection": "licenses/provenance/noir-lang__sha256__v0.2.1/inspection.json"
+    },
+    {
+      "component": "olehmisar__nodash__v0.42.0",
+      "archive_sha256": "d0a3aed81ed5418b21d989bfaccd54ca7acb82c28b8fafa1f737718d5ab77d35",
+      "reason": "Locked exact-version archive contains no license/copyright/SPDX declaration or LICENSE/COPYING/NOTICE file. Cannot infer authorization or relicense under the project Apache-2.0 grant.",
+      "required_resolution": "Obtain a license grant applicable to this exact version from its rights holder, or replace/remove this dependency in a separately reviewed source change.",
+      "evidence_index": "licenses/provenance/olehmisar__nodash__v0.42.0/archive-index.json",
+      "evidence_inspection": "licenses/provenance/olehmisar__nodash__v0.42.0/inspection.json"
+    }
+  ],
+  "tlsnotary_crates": [
+    {
+      "path": "request-proof/tlsn/crates/attestation/Cargo.toml",
+      "name": "tlsn-attestation",
+      "version": "0.1.0-alpha.14",
+      "declared_spdx": null,
+      "repository_readme_option": "Apache-2.0 OR MIT",
+      "selected_license": "Apache-2.0",
+      "selection_basis": "Explicit all-crates choice in the pinned root README; individual declaration retained if present.",
+      "upstream_manifest_sha256": "83b8eef6556b742e05fda639f1db2931aa761bb58331a2aa822b8fc0b47586a2",
+      "source_url": "https://raw.githubusercontent.com/tlsnotary/tlsn/9a3d73c5bdeeab0255bdb05c89116554cebf6dbe/crates/attestation/Cargo.toml"
+    },
+    {
+      "path": "request-proof/tlsn/crates/components/cipher/Cargo.toml",
+      "name": "tlsn-cipher",
+      "version": "0.1.0-alpha.14",
+      "declared_spdx": "MIT OR Apache-2.0",
+      "repository_readme_option": "Apache-2.0 OR MIT",
+      "selected_license": "Apache-2.0",
+      "selection_basis": "Explicit all-crates choice in the pinned root README; individual declaration retained if present.",
+      "upstream_manifest_sha256": "90150487ccb9df8ebf6bc57f6a7c131c75e7e7e0a05ef16980073fb724035225",
+      "source_url": "https://raw.githubusercontent.com/tlsnotary/tlsn/9a3d73c5bdeeab0255bdb05c89116554cebf6dbe/crates/components/cipher/Cargo.toml"
+    },
+    {
+      "path": "request-proof/tlsn/crates/components/deap/Cargo.toml",
+      "name": "tlsn-deap",
+      "version": "0.1.0-alpha.14",
+      "declared_spdx": null,
+      "repository_readme_option": "Apache-2.0 OR MIT",
+      "selected_license": "Apache-2.0",
+      "selection_basis": "Explicit all-crates choice in the pinned root README; individual declaration retained if present.",
+      "upstream_manifest_sha256": "436b005ef0f5ffc8e44cb768ce4c4276dccc6a592502be9adc2fd9b04e3ca5ae",
+      "source_url": "https://raw.githubusercontent.com/tlsnotary/tlsn/9a3d73c5bdeeab0255bdb05c89116554cebf6dbe/crates/components/deap/Cargo.toml"
+    },
+    {
+      "path": "request-proof/tlsn/crates/components/hmac-sha256/Cargo.toml",
+      "name": "tlsn-hmac-sha256",
+      "version": "0.1.0-alpha.14",
+      "declared_spdx": "MIT OR Apache-2.0",
+      "repository_readme_option": "Apache-2.0 OR MIT",
+      "selected_license": "Apache-2.0",
+      "selection_basis": "Explicit all-crates choice in the pinned root README; individual declaration retained if present.",
+      "upstream_manifest_sha256": "814f23b89cc6de38e465ff88d5ca4f15c7b85f544da701e43c5e7ff93d3c2802",
+      "source_url": "https://raw.githubusercontent.com/tlsnotary/tlsn/9a3d73c5bdeeab0255bdb05c89116554cebf6dbe/crates/components/hmac-sha256/Cargo.toml"
+    },
+    {
+      "path": "request-proof/tlsn/crates/components/key-exchange/Cargo.toml",
+      "name": "tlsn-key-exchange",
+      "version": "0.1.0-alpha.14",
+      "declared_spdx": "MIT OR Apache-2.0",
+      "repository_readme_option": "Apache-2.0 OR MIT",
+      "selected_license": "Apache-2.0",
+      "selection_basis": "Explicit all-crates choice in the pinned root README; individual declaration retained if present.",
+      "upstream_manifest_sha256": "06d62ff6c43f570c37e7236e1b33d57a3a83cc0c557002c43c38904fa2bc87e1",
+      "source_url": "https://raw.githubusercontent.com/tlsnotary/tlsn/9a3d73c5bdeeab0255bdb05c89116554cebf6dbe/crates/components/key-exchange/Cargo.toml"
+    },
+    {
+      "path": "request-proof/tlsn/crates/core/Cargo.toml",
+      "name": "tlsn-core",
+      "version": "0.1.0-alpha.14",
+      "declared_spdx": "MIT OR Apache-2.0",
+      "repository_readme_option": "Apache-2.0 OR MIT",
+      "selected_license": "Apache-2.0",
+      "selection_basis": "Explicit all-crates choice in the pinned root README; individual declaration retained if present.",
+      "upstream_manifest_sha256": "83eed851a92af39f38ba99bd44fc25cff3beeb2ae08b6f792bf121104b40fb23",
+      "source_url": "https://raw.githubusercontent.com/tlsnotary/tlsn/9a3d73c5bdeeab0255bdb05c89116554cebf6dbe/crates/core/Cargo.toml"
+    },
+    {
+      "path": "request-proof/tlsn/crates/data-fixtures/Cargo.toml",
+      "name": "tlsn-data-fixtures",
+      "version": "0.0.0",
+      "declared_spdx": null,
+      "repository_readme_option": "Apache-2.0 OR MIT",
+      "selected_license": "Apache-2.0",
+      "selection_basis": "Explicit all-crates choice in the pinned root README; individual declaration retained if present.",
+      "upstream_manifest_sha256": "f98bdaa4cc0ac23a7f3959d8990e9871bae8e86093632b57c62ac38ca1fc7552",
+      "source_url": "https://raw.githubusercontent.com/tlsnotary/tlsn/9a3d73c5bdeeab0255bdb05c89116554cebf6dbe/crates/data-fixtures/Cargo.toml"
+    },
+    {
+      "path": "request-proof/tlsn/crates/examples/Cargo.toml",
+      "name": "tlsn-examples",
+      "version": "0.0.0",
+      "declared_spdx": null,
+      "repository_readme_option": "Apache-2.0 OR MIT",
+      "selected_license": "Apache-2.0",
+      "selection_basis": "Explicit all-crates choice in the pinned root README; individual declaration retained if present.",
+      "upstream_manifest_sha256": "1fe1294e9677ed4e88f1085cc0a41bb7ed734d70490f420d0960ba22b2961c58",
+      "source_url": "https://raw.githubusercontent.com/tlsnotary/tlsn/9a3d73c5bdeeab0255bdb05c89116554cebf6dbe/crates/examples/Cargo.toml"
+    },
+    {
+      "path": "request-proof/tlsn/crates/formats/Cargo.toml",
+      "name": "tlsn-formats",
+      "version": "0.1.0-alpha.14",
+      "declared_spdx": null,
+      "repository_readme_option": "Apache-2.0 OR MIT",
+      "selected_license": "Apache-2.0",
+      "selection_basis": "Explicit all-crates choice in the pinned root README; individual declaration retained if present.",
+      "upstream_manifest_sha256": "46ef3a907ce61f656da6fc3de1913625c8206cf9d98094d7d78bce6c5b66dc3b",
+      "source_url": "https://raw.githubusercontent.com/tlsnotary/tlsn/9a3d73c5bdeeab0255bdb05c89116554cebf6dbe/crates/formats/Cargo.toml"
+    },
+    {
+      "path": "request-proof/tlsn/crates/harness/core/Cargo.toml",
+      "name": "tlsn-harness-core",
+      "version": "0.1.0",
+      "declared_spdx": null,
+      "repository_readme_option": "Apache-2.0 OR MIT",
+      "selected_license": "Apache-2.0",
+      "selection_basis": "Explicit all-crates choice in the pinned root README; individual declaration retained if present.",
+      "upstream_manifest_sha256": "ab16d91b86cd129383bc971bf83606a85016fc10d95ebb11bee5b94115a55106",
+      "source_url": "https://raw.githubusercontent.com/tlsnotary/tlsn/9a3d73c5bdeeab0255bdb05c89116554cebf6dbe/crates/harness/core/Cargo.toml"
+    },
+    {
+      "path": "request-proof/tlsn/crates/harness/executor/Cargo.toml",
+      "name": "tlsn-harness-executor",
+      "version": "0.1.0",
+      "declared_spdx": null,
+      "repository_readme_option": "Apache-2.0 OR MIT",
+      "selected_license": "Apache-2.0",
+      "selection_basis": "Explicit all-crates choice in the pinned root README; individual declaration retained if present.",
+      "upstream_manifest_sha256": "2da075eff7832dfb7ff3a45f788764bb2156ad6e38cafc6fef8dd66d673c5f7f",
+      "source_url": "https://raw.githubusercontent.com/tlsnotary/tlsn/9a3d73c5bdeeab0255bdb05c89116554cebf6dbe/crates/harness/executor/Cargo.toml"
+    },
+    {
+      "path": "request-proof/tlsn/crates/harness/plot/Cargo.toml",
+      "name": "tlsn-harness-plot",
+      "version": "0.0.0",
+      "declared_spdx": null,
+      "repository_readme_option": "Apache-2.0 OR MIT",
+      "selected_license": "Apache-2.0",
+      "selection_basis": "Explicit all-crates choice in the pinned root README; individual declaration retained if present.",
+      "upstream_manifest_sha256": "8d4a17ac3fb599f58d425d27f68aa212b6e637544c00750780656dbeb5620477",
+      "source_url": "https://raw.githubusercontent.com/tlsnotary/tlsn/9a3d73c5bdeeab0255bdb05c89116554cebf6dbe/crates/harness/plot/Cargo.toml"
+    },
+    {
+      "path": "request-proof/tlsn/crates/harness/runner/Cargo.toml",
+      "name": "tlsn-harness-runner",
+      "version": "0.1.0",
+      "declared_spdx": null,
+      "repository_readme_option": "Apache-2.0 OR MIT",
+      "selected_license": "Apache-2.0",
+      "selection_basis": "Explicit all-crates choice in the pinned root README; individual declaration retained if present.",
+      "upstream_manifest_sha256": "e855ae9702c855d9e792ff172b10f44bf99986b908182b8bd5fba2355d63e96e",
+      "source_url": "https://raw.githubusercontent.com/tlsnotary/tlsn/9a3d73c5bdeeab0255bdb05c89116554cebf6dbe/crates/harness/runner/Cargo.toml"
+    },
+    {
+      "path": "request-proof/tlsn/crates/mpc-tls/Cargo.toml",
+      "name": "tlsn-mpc-tls",
+      "version": "0.1.0-alpha.14",
+      "declared_spdx": "MIT OR Apache-2.0",
+      "repository_readme_option": "Apache-2.0 OR MIT",
+      "selected_license": "Apache-2.0",
+      "selection_basis": "Explicit all-crates choice in the pinned root README; individual declaration retained if present.",
+      "upstream_manifest_sha256": "dbef9d7c78830ed1b5e0c4b3dd3775ddffdd91e54450de4c8fc7d32f7ce37807",
+      "source_url": "https://raw.githubusercontent.com/tlsnotary/tlsn/9a3d73c5bdeeab0255bdb05c89116554cebf6dbe/crates/mpc-tls/Cargo.toml"
+    },
+    {
+      "path": "request-proof/tlsn/crates/server-fixture/certs/Cargo.toml",
+      "name": "tlsn-server-fixture-certs",
+      "version": "0.0.0",
+      "declared_spdx": null,
+      "repository_readme_option": "Apache-2.0 OR MIT",
+      "selected_license": "Apache-2.0",
+      "selection_basis": "Explicit all-crates choice in the pinned root README; individual declaration retained if present.",
+      "upstream_manifest_sha256": "65a564a28d1fdaf354a246211023b99928785f9b851561a6b8944f5b834236c2",
+      "source_url": "https://raw.githubusercontent.com/tlsnotary/tlsn/9a3d73c5bdeeab0255bdb05c89116554cebf6dbe/crates/server-fixture/certs/Cargo.toml"
+    },
+    {
+      "path": "request-proof/tlsn/crates/server-fixture/server/Cargo.toml",
+      "name": "tlsn-server-fixture",
+      "version": "0.0.0",
+      "declared_spdx": null,
+      "repository_readme_option": "Apache-2.0 OR MIT",
+      "selected_license": "Apache-2.0",
+      "selection_basis": "Explicit all-crates choice in the pinned root README; individual declaration retained if present.",
+      "upstream_manifest_sha256": "82b4f9d2015af043fef55e4065af7a24d77131a1764daa371d5c9639cacd8bff",
+      "source_url": "https://raw.githubusercontent.com/tlsnotary/tlsn/9a3d73c5bdeeab0255bdb05c89116554cebf6dbe/crates/server-fixture/server/Cargo.toml"
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/backend/Cargo.toml",
+      "name": "tlsn-tls-backend",
+      "version": "0.1.0-alpha.14",
+      "declared_spdx": "MIT OR Apache-2.0",
+      "repository_readme_option": "Apache-2.0 OR MIT",
+      "selected_license": "Apache-2.0",
+      "selection_basis": "Explicit all-crates choice in the pinned root README; individual declaration retained if present.",
+      "upstream_manifest_sha256": "bf8538434049e519563116fe97d1911480889cac887b0f1d8714d8486f121da8",
+      "source_url": "https://raw.githubusercontent.com/tlsnotary/tlsn/9a3d73c5bdeeab0255bdb05c89116554cebf6dbe/crates/tls/backend/Cargo.toml"
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/client-async/Cargo.toml",
+      "name": "tlsn-tls-client-async",
+      "version": "0.1.0-alpha.14",
+      "declared_spdx": "MIT OR Apache-2.0",
+      "repository_readme_option": "Apache-2.0 OR MIT",
+      "selected_license": "Apache-2.0",
+      "selection_basis": "Explicit all-crates choice in the pinned root README; individual declaration retained if present.",
+      "upstream_manifest_sha256": "1958e11364e6707b144cbd13c21ccb8c7baaf2fae8e164358afd6de6f48825bb",
+      "source_url": "https://raw.githubusercontent.com/tlsnotary/tlsn/9a3d73c5bdeeab0255bdb05c89116554cebf6dbe/crates/tls/client-async/Cargo.toml"
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/client/Cargo.toml",
+      "name": "tlsn-tls-client",
+      "version": "0.1.0-alpha.14",
+      "declared_spdx": "Apache-2.0 OR ISC OR MIT",
+      "repository_readme_option": "Apache-2.0 OR MIT",
+      "selected_license": "Apache-2.0",
+      "selection_basis": "Explicit all-crates choice in the pinned root README; individual declaration retained if present.",
+      "upstream_manifest_sha256": "678d32d55e728c7c95ba7442a476c2e887bf71f1f5220fef4df5c783376e15a5",
+      "source_url": "https://raw.githubusercontent.com/tlsnotary/tlsn/9a3d73c5bdeeab0255bdb05c89116554cebf6dbe/crates/tls/client/Cargo.toml"
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/core/Cargo.toml",
+      "name": "tlsn-tls-core",
+      "version": "0.1.0-alpha.14",
+      "declared_spdx": "Apache-2.0 OR ISC OR MIT",
+      "repository_readme_option": "Apache-2.0 OR MIT",
+      "selected_license": "Apache-2.0",
+      "selection_basis": "Explicit all-crates choice in the pinned root README; individual declaration retained if present.",
+      "upstream_manifest_sha256": "21c48aab1798817c87b5c8e5cc509bae72e0dc30b112ba968c6cb2dde26def77",
+      "source_url": "https://raw.githubusercontent.com/tlsnotary/tlsn/9a3d73c5bdeeab0255bdb05c89116554cebf6dbe/crates/tls/core/Cargo.toml"
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/server-fixture/Cargo.toml",
+      "name": "tls-server-fixture",
+      "version": "0.0.0",
+      "declared_spdx": "MIT OR Apache-2.0",
+      "repository_readme_option": "Apache-2.0 OR MIT",
+      "selected_license": "Apache-2.0",
+      "selection_basis": "Explicit all-crates choice in the pinned root README; individual declaration retained if present.",
+      "upstream_manifest_sha256": "3e106f80329fb8d2da4b4ccc0d9ff4bc8dc0abd64c0fcae4e47a9576b481aab6",
+      "source_url": "https://raw.githubusercontent.com/tlsnotary/tlsn/9a3d73c5bdeeab0255bdb05c89116554cebf6dbe/crates/tls/server-fixture/Cargo.toml"
+    },
+    {
+      "path": "request-proof/tlsn/crates/tlsn/Cargo.toml",
+      "name": "tlsn",
+      "version": "0.1.0-alpha.14",
+      "declared_spdx": "MIT OR Apache-2.0",
+      "repository_readme_option": "Apache-2.0 OR MIT",
+      "selected_license": "Apache-2.0",
+      "selection_basis": "Explicit all-crates choice in the pinned root README; individual declaration retained if present.",
+      "upstream_manifest_sha256": "4037eb6a76175c901c5c4da14b65264d85913951c4314de8a7f18571d31ab6ba",
+      "source_url": "https://raw.githubusercontent.com/tlsnotary/tlsn/9a3d73c5bdeeab0255bdb05c89116554cebf6dbe/crates/tlsn/Cargo.toml"
+    },
+    {
+      "path": "request-proof/tlsn/crates/wasm/Cargo.toml",
+      "name": "tlsn-wasm",
+      "version": "0.1.0-alpha.14",
+      "declared_spdx": "MIT OR Apache-2.0",
+      "repository_readme_option": "Apache-2.0 OR MIT",
+      "selected_license": "Apache-2.0",
+      "selection_basis": "Explicit all-crates choice in the pinned root README; individual declaration retained if present.",
+      "upstream_manifest_sha256": "8d204790a9156bda3c81f8fddd97788deb429f05ee7aa161d4fb88b4c42137fb",
+      "source_url": "https://raw.githubusercontent.com/tlsnotary/tlsn/9a3d73c5bdeeab0255bdb05c89116554cebf6dbe/crates/wasm/Cargo.toml"
+    }
+  ],
+  "vendored_noir_components": [
+    {
+      "component_path": "zk-prototype/vendor/noir-lang__keccak256__v0.1.1",
+      "repository": "https://github.com/noir-lang/keccak256",
+      "ref": "v0.1.1",
+      "archive_sha256": "0eaea329777a658bf0b404b6d1a5cc7296ab83bc6ded7cb90321b2c76529eac4",
+      "status": "UNRESOLVED",
+      "license_observed": "unresolved: no exact-version license statement or text",
+      "vendored_license_matches_locked_upstream": null,
+      "upstream_license_notice_paths": [],
+      "evidence": [
+        {
+          "upstream_path": "README.md",
+          "local_path": null,
+          "sha256": "6524d3fc7ca3506b8a94082fc028f1599bff3885ec80f9667bc481d4b7f21dae",
+          "source_url": "https://raw.githubusercontent.com/noir-lang/keccak256/v0.1.1/README.md",
+          "not_redistributed": true
+        },
+        {
+          "upstream_path": "Nargo.toml",
+          "local_path": null,
+          "sha256": "49056fd9a7f616a3d26e5c33d229beb279258126ff688e85e5a0f82e1ff49e13",
+          "source_url": "https://raw.githubusercontent.com/noir-lang/keccak256/v0.1.1/Nargo.toml",
+          "not_redistributed": true
+        }
+      ]
+    },
+    {
+      "component_path": "zk-prototype/vendor/noir-lang__noir-bignum__v0.8.0",
+      "repository": "https://github.com/noir-lang/noir-bignum",
+      "ref": "v0.8.0",
+      "archive_sha256": "367487c8c28e447aa6c35e561ef4484571e1afdb1647b52b355fdb44fe7e2451",
+      "status": "verified_license_text_preserved",
+      "license_observed": "Apache-2.0 license text",
+      "vendored_license_matches_locked_upstream": true,
+      "upstream_license_notice_paths": [
+        "LICENSE"
+      ],
+      "evidence": [
+        {
+          "upstream_path": "LICENSE",
+          "local_path": "licenses/upstream/noir-lang__noir-bignum__v0.8.0/LICENSE",
+          "sha256": "4458503dd48e88c4e0b945fb252a08b93c40ec757309b8ffa7c594dfa1e35104",
+          "source_url": "https://raw.githubusercontent.com/noir-lang/noir-bignum/v0.8.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_path": "zk-prototype/vendor/noir-lang__noir_base64__v0.4.2",
+      "repository": "https://github.com/noir-lang/noir_base64",
+      "ref": "v0.4.2",
+      "archive_sha256": "3286bdb660b62f3899136b041e75502b7ba5969d04446a66d0390a84e3096ec1",
+      "status": "verified_license_text_preserved",
+      "license_observed": "Apache-2.0 license text",
+      "vendored_license_matches_locked_upstream": true,
+      "upstream_license_notice_paths": [
+        "LICENSE"
+      ],
+      "evidence": [
+        {
+          "upstream_path": "LICENSE",
+          "local_path": "licenses/upstream/noir-lang__noir_base64__v0.4.2/LICENSE",
+          "sha256": "e7c3764adeb87abf90693f43d460e1684ae3d306cfd136b5f7564c90e23b2afe",
+          "source_url": "https://raw.githubusercontent.com/noir-lang/noir_base64/v0.4.2/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_path": "zk-prototype/vendor/noir-lang__noir_check_shuffle__v0.2.0",
+      "repository": "https://github.com/noir-lang/noir_check_shuffle",
+      "ref": "v0.2.0",
+      "archive_sha256": "6348236521163ff9da7e7472c437ca00197c393d4f842e5058afc7705f75a493",
+      "status": "verified_license_text_preserved",
+      "license_observed": "Apache-2.0 license text",
+      "vendored_license_matches_locked_upstream": true,
+      "upstream_license_notice_paths": [
+        "LICENSE"
+      ],
+      "evidence": [
+        {
+          "upstream_path": "LICENSE",
+          "local_path": "licenses/upstream/noir-lang__noir_check_shuffle__v0.2.0/LICENSE",
+          "sha256": "4458503dd48e88c4e0b945fb252a08b93c40ec757309b8ffa7c594dfa1e35104",
+          "source_url": "https://raw.githubusercontent.com/noir-lang/noir_check_shuffle/v0.2.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_path": "zk-prototype/vendor/noir-lang__noir_check_shuffle__v0.2.1",
+      "repository": "https://github.com/noir-lang/noir_check_shuffle",
+      "ref": "v0.2.1",
+      "archive_sha256": "e752c59a70ee777898f452835ae845ff9ee45ab86f1c1fb25461802538042158",
+      "status": "verified_license_text_preserved",
+      "license_observed": "Apache-2.0 license text",
+      "vendored_license_matches_locked_upstream": true,
+      "upstream_license_notice_paths": [
+        "LICENSE"
+      ],
+      "evidence": [
+        {
+          "upstream_path": "LICENSE",
+          "local_path": "licenses/upstream/noir-lang__noir_check_shuffle__v0.2.1/LICENSE",
+          "sha256": "4458503dd48e88c4e0b945fb252a08b93c40ec757309b8ffa7c594dfa1e35104",
+          "source_url": "https://raw.githubusercontent.com/noir-lang/noir_check_shuffle/v0.2.1/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_path": "zk-prototype/vendor/noir-lang__noir_json_parser__7c28610067af182d4b03bde406f1b3dfbbaa6f1f",
+      "repository": "https://github.com/noir-lang/noir_json_parser",
+      "ref": "7c28610067af182d4b03bde406f1b3dfbbaa6f1f",
+      "archive_sha256": "102204b090ef53fd8d0aa0bb273981ab0db769582df297f0ec3bcb836ff5f30f",
+      "status": "verified_license_text_preserved",
+      "license_observed": "Apache-2.0 license text",
+      "vendored_license_matches_locked_upstream": true,
+      "upstream_license_notice_paths": [
+        "LICENSE"
+      ],
+      "evidence": [
+        {
+          "upstream_path": "LICENSE",
+          "local_path": "licenses/upstream/noir-lang__noir_json_parser__7c28610067af182d4b03bde406f1b3dfbbaa6f1f/LICENSE",
+          "sha256": "6e6938e192dd643c13add5af287af194d5b40e5b42de57fcf5750b7e2511201b",
+          "source_url": "https://raw.githubusercontent.com/noir-lang/noir_json_parser/7c28610067af182d4b03bde406f1b3dfbbaa6f1f/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_path": "zk-prototype/vendor/noir-lang__noir_json_parser__dc8ad05fd63ef7518bf3adf3e5b61a87feb143b8",
+      "repository": "https://github.com/noir-lang/noir_json_parser",
+      "ref": "dc8ad05fd63ef7518bf3adf3e5b61a87feb143b8",
+      "archive_sha256": "538e8d40579595d279b1d270d8060ec201e572b9fa737681d41ca4e3ad67428c",
+      "status": "verified_license_text_preserved",
+      "license_observed": "Apache-2.0 license text",
+      "vendored_license_matches_locked_upstream": true,
+      "upstream_license_notice_paths": [
+        "LICENSE"
+      ],
+      "evidence": [
+        {
+          "upstream_path": "LICENSE",
+          "local_path": "licenses/upstream/noir-lang__noir_json_parser__dc8ad05fd63ef7518bf3adf3e5b61a87feb143b8/LICENSE",
+          "sha256": "4458503dd48e88c4e0b945fb252a08b93c40ec757309b8ffa7c594dfa1e35104",
+          "source_url": "https://raw.githubusercontent.com/noir-lang/noir_json_parser/dc8ad05fd63ef7518bf3adf3e5b61a87feb143b8/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_path": "zk-prototype/vendor/noir-lang__noir_json_parser__v0.4.0",
+      "repository": "https://github.com/noir-lang/noir_json_parser",
+      "ref": "v0.4.0",
+      "archive_sha256": "d4a575fd34aebe9cd5a18ee2d98c8d3e034da2147e9d61a3cee131742e1b965e",
+      "status": "verified_license_text_preserved",
+      "license_observed": "Apache-2.0 license text",
+      "vendored_license_matches_locked_upstream": true,
+      "upstream_license_notice_paths": [
+        "LICENSE"
+      ],
+      "evidence": [
+        {
+          "upstream_path": "LICENSE",
+          "local_path": "licenses/upstream/noir-lang__noir_json_parser__v0.4.0/LICENSE",
+          "sha256": "4458503dd48e88c4e0b945fb252a08b93c40ec757309b8ffa7c594dfa1e35104",
+          "source_url": "https://raw.githubusercontent.com/noir-lang/noir_json_parser/v0.4.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_path": "zk-prototype/vendor/noir-lang__noir_sort__v0.2.2",
+      "repository": "https://github.com/noir-lang/noir_sort",
+      "ref": "v0.2.2",
+      "archive_sha256": "0f217e27947ce9741678e8a2089868aca3ca42f1bb1c9b5be24c417dba7112cb",
+      "status": "verified_license_text_preserved",
+      "license_observed": "Apache-2.0 license text",
+      "vendored_license_matches_locked_upstream": true,
+      "upstream_license_notice_paths": [
+        "LICENSE"
+      ],
+      "evidence": [
+        {
+          "upstream_path": "LICENSE",
+          "local_path": "licenses/upstream/noir-lang__noir_sort__v0.2.2/LICENSE",
+          "sha256": "4458503dd48e88c4e0b945fb252a08b93c40ec757309b8ffa7c594dfa1e35104",
+          "source_url": "https://raw.githubusercontent.com/noir-lang/noir_sort/v0.2.2/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_path": "zk-prototype/vendor/noir-lang__noir_sort__v0.3.0",
+      "repository": "https://github.com/noir-lang/noir_sort",
+      "ref": "v0.3.0",
+      "archive_sha256": "df04fd034f70b3d6d0baeef57e1eab063fde7faf7854b3b5a27c87cea6fa7117",
+      "status": "verified_license_text_preserved",
+      "license_observed": "Apache-2.0 license text",
+      "vendored_license_matches_locked_upstream": true,
+      "upstream_license_notice_paths": [
+        "LICENSE"
+      ],
+      "evidence": [
+        {
+          "upstream_path": "LICENSE",
+          "local_path": "licenses/upstream/noir-lang__noir_sort__v0.3.0/LICENSE",
+          "sha256": "4458503dd48e88c4e0b945fb252a08b93c40ec757309b8ffa7c594dfa1e35104",
+          "source_url": "https://raw.githubusercontent.com/noir-lang/noir_sort/v0.3.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_path": "zk-prototype/vendor/noir-lang__noir_sort__v0.4.0",
+      "repository": "https://github.com/noir-lang/noir_sort",
+      "ref": "v0.4.0",
+      "archive_sha256": "89998405a869a4537a5b74df50c5f9170a10aecf7776581525d59f6118d29b1a",
+      "status": "verified_license_text_preserved",
+      "license_observed": "Apache-2.0 license text",
+      "vendored_license_matches_locked_upstream": true,
+      "upstream_license_notice_paths": [
+        "LICENSE"
+      ],
+      "evidence": [
+        {
+          "upstream_path": "LICENSE",
+          "local_path": "licenses/upstream/noir-lang__noir_sort__v0.4.0/LICENSE",
+          "sha256": "4458503dd48e88c4e0b945fb252a08b93c40ec757309b8ffa7c594dfa1e35104",
+          "source_url": "https://raw.githubusercontent.com/noir-lang/noir_sort/v0.4.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_path": "zk-prototype/vendor/noir-lang__noir_string_search__v0.3.3",
+      "repository": "https://github.com/noir-lang/noir_string_search",
+      "ref": "v0.3.3",
+      "archive_sha256": "79069f4aa816cc247260ad69d57406b0bee1e7fd6c4846ad5b84981f86cbd59b",
+      "status": "verified_license_text_preserved",
+      "license_observed": "Apache-2.0 license text",
+      "vendored_license_matches_locked_upstream": true,
+      "upstream_license_notice_paths": [
+        "LICENSE"
+      ],
+      "evidence": [
+        {
+          "upstream_path": "LICENSE",
+          "local_path": "licenses/upstream/noir-lang__noir_string_search__v0.3.3/LICENSE",
+          "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+          "source_url": "https://raw.githubusercontent.com/noir-lang/noir_string_search/v0.3.3/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_path": "zk-prototype/vendor/noir-lang__poseidon__v0.1.1",
+      "repository": "https://github.com/noir-lang/poseidon",
+      "ref": "v0.1.1",
+      "archive_sha256": "1e380ed733b660798c749541cfe3827a760e03b05d4af3a27d60be5734bad6fe",
+      "status": "verified_license_text_preserved",
+      "license_observed": "Apache-2.0 license text",
+      "vendored_license_matches_locked_upstream": true,
+      "upstream_license_notice_paths": [
+        "LICENSE"
+      ],
+      "evidence": [
+        {
+          "upstream_path": "LICENSE",
+          "local_path": "licenses/upstream/noir-lang__poseidon__v0.1.1/LICENSE",
+          "sha256": "4458503dd48e88c4e0b945fb252a08b93c40ec757309b8ffa7c594dfa1e35104",
+          "source_url": "https://raw.githubusercontent.com/noir-lang/poseidon/v0.1.1/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_path": "zk-prototype/vendor/noir-lang__poseidon__v0.3.0",
+      "repository": "https://github.com/noir-lang/poseidon",
+      "ref": "v0.3.0",
+      "archive_sha256": "cd47b33bdf4b850209c467624770c655078ce8174f95482b1aaacb05eaf2e375",
+      "status": "verified_license_text_preserved",
+      "license_observed": "Apache-2.0 license text",
+      "vendored_license_matches_locked_upstream": true,
+      "upstream_license_notice_paths": [
+        "LICENSE"
+      ],
+      "evidence": [
+        {
+          "upstream_path": "LICENSE",
+          "local_path": "licenses/upstream/noir-lang__poseidon__v0.3.0/LICENSE",
+          "sha256": "4458503dd48e88c4e0b945fb252a08b93c40ec757309b8ffa7c594dfa1e35104",
+          "source_url": "https://raw.githubusercontent.com/noir-lang/poseidon/v0.3.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_path": "zk-prototype/vendor/noir-lang__sha256__v0.2.1",
+      "repository": "https://github.com/noir-lang/sha256",
+      "ref": "v0.2.1",
+      "archive_sha256": "bbac7548b03a99ca0be27bbe1e7292c40767a603893bd58a30811ee7204f5b52",
+      "status": "UNRESOLVED",
+      "license_observed": "unresolved: no exact-version license statement or text",
+      "vendored_license_matches_locked_upstream": null,
+      "upstream_license_notice_paths": [],
+      "evidence": [
+        {
+          "upstream_path": "README.md",
+          "local_path": null,
+          "sha256": "23bef155401f0639500ba201cf9a13ec4cfa65df39e98391acc4caabb95dfdb9",
+          "source_url": "https://raw.githubusercontent.com/noir-lang/sha256/v0.2.1/README.md",
+          "not_redistributed": true
+        },
+        {
+          "upstream_path": "Nargo.toml",
+          "local_path": null,
+          "sha256": "b74e83c6dd7560e15a7c7fb5352f1a64d81e44d0981f4281115e510e3efe550f",
+          "source_url": "https://raw.githubusercontent.com/noir-lang/sha256/v0.2.1/Nargo.toml",
+          "not_redistributed": true
+        }
+      ]
+    },
+    {
+      "component_path": "zk-prototype/vendor/olehmisar__nodash__v0.42.0",
+      "repository": "https://github.com/olehmisar/nodash",
+      "ref": "v0.42.0",
+      "archive_sha256": "d0a3aed81ed5418b21d989bfaccd54ca7acb82c28b8fafa1f737718d5ab77d35",
+      "status": "UNRESOLVED",
+      "license_observed": "unresolved: no exact-version license statement or text",
+      "vendored_license_matches_locked_upstream": null,
+      "upstream_license_notice_paths": [],
+      "evidence": [
+        {
+          "upstream_path": "README.md",
+          "local_path": null,
+          "sha256": "1af9a0c18089a25f6c7bbfda333e713a6e30772ff312ea6517e26edb5c8f5ffa",
+          "source_url": "https://raw.githubusercontent.com/olehmisar/nodash/v0.42.0/README.md",
+          "not_redistributed": true
+        },
+        {
+          "upstream_path": "Nargo.toml",
+          "local_path": null,
+          "sha256": "7316408fa3936ecea250a9e4282d58baa74f2ebc57c806a7f3f5ca7283911440",
+          "source_url": "https://raw.githubusercontent.com/olehmisar/nodash/v0.42.0/Nargo.toml",
+          "not_redistributed": true
+        }
+      ]
+    },
+    {
+      "component_path": "zk-prototype/vendor/zac-williamson__sha1__v0.11",
+      "repository": "https://github.com/zac-williamson/sha1",
+      "ref": "v0.11",
+      "archive_sha256": "ca8bd58410ab1dd21af261ad528e8b665d843be5b9b59b15449feb7f07080f87",
+      "status": "verified_license_text_preserved",
+      "license_observed": "Apache-2.0 license text",
+      "vendored_license_matches_locked_upstream": true,
+      "upstream_license_notice_paths": [
+        "LICENSE"
+      ],
+      "evidence": [
+        {
+          "upstream_path": "LICENSE",
+          "local_path": "licenses/upstream/zac-williamson__sha1__v0.11/LICENSE",
+          "sha256": "4458503dd48e88c4e0b945fb252a08b93c40ec757309b8ffa7c594dfa1e35104",
+          "source_url": "https://raw.githubusercontent.com/zac-williamson/sha1/v0.11/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_path": "zk-prototype/vendor/zkemail__noir-jwt__v0.5.1",
+      "repository": "https://github.com/zkemail/noir-jwt",
+      "ref": "v0.5.1",
+      "archive_sha256": "4988ab0fb25dd77f8ef695a7134d83959b4de40de04185119335176c47552479",
+      "status": "verified_license_text_preserved",
+      "license_observed": "Apache-2.0 license text",
+      "vendored_license_matches_locked_upstream": true,
+      "upstream_license_notice_paths": [
+        "LICENSE"
+      ],
+      "evidence": [
+        {
+          "upstream_path": "LICENSE",
+          "local_path": "licenses/upstream/zkemail__noir-jwt__v0.5.1/LICENSE",
+          "sha256": "4458503dd48e88c4e0b945fb252a08b93c40ec757309b8ffa7c594dfa1e35104",
+          "source_url": "https://raw.githubusercontent.com/zkemail/noir-jwt/v0.5.1/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_path": "zk-prototype/vendor/zkpassport__noir_rsa__v0.9.1",
+      "repository": "https://github.com/zkpassport/noir_rsa",
+      "ref": "v0.9.1",
+      "archive_sha256": "ecc03d9edb15249cdf26e663772a8857b35e516ce89d57450503dec5ad67f78c",
+      "status": "verified_license_text_preserved",
+      "license_observed": "Apache-2.0 license text",
+      "vendored_license_matches_locked_upstream": true,
+      "upstream_license_notice_paths": [
+        "LICENSE"
+      ],
+      "evidence": [
+        {
+          "upstream_path": "LICENSE",
+          "local_path": "licenses/upstream/zkpassport__noir_rsa__v0.9.1/LICENSE",
+          "sha256": "4458503dd48e88c4e0b945fb252a08b93c40ec757309b8ffa7c594dfa1e35104",
+          "source_url": "https://raw.githubusercontent.com/zkpassport/noir_rsa/v0.9.1/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_path": "zk-prototype/vendor/zkpassport__sha512__v0.1.0",
+      "repository": "https://github.com/zkpassport/sha512",
+      "ref": "v0.1.0",
+      "archive_sha256": "9a84ba7beaa17540300e96a7e5128809eedbab128a47817c1e6b7967f1efe148",
+      "status": "verified_license_text_preserved",
+      "license_observed": "Apache-2.0 license text",
+      "vendored_license_matches_locked_upstream": true,
+      "upstream_license_notice_paths": [
+        "LICENSE"
+      ],
+      "evidence": [
+        {
+          "upstream_path": "LICENSE",
+          "local_path": "licenses/upstream/zkpassport__sha512__v0.1.0/LICENSE",
+          "sha256": "4458503dd48e88c4e0b945fb252a08b93c40ec757309b8ffa7c594dfa1e35104",
+          "source_url": "https://raw.githubusercontent.com/zkpassport/sha512/v0.1.0/LICENSE"
+        }
+      ]
+    }
+  ]
+}

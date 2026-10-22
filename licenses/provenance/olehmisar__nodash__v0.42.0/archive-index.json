@@ -1,0 +1,97 @@
+[
+  {
+    "path": ".editorconfig",
+    "bytes": 253,
+    "sha256": "766e09e9ef6bce831ee2ccfdb10d8317f60d81fea613f0d0e2945bf5abbb087d"
+  },
+  {
+    "path": ".github/workflows/test.yml",
+    "bytes": 782,
+    "sha256": "76f45761a23bdaf9c72446f2f2978d3a1f3bc4e4111a31f9c7d5df431ede0282"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 38,
+    "sha256": "59d1af32c7490f6b4c1dfcd84056bfbcc242b2f578ae6c957cb3b8a865d5c410"
+  },
+  {
+    "path": "Nargo.toml",
+    "bytes": 471,
+    "sha256": "7316408fa3936ecea250a9e4282d58baa74f2ebc57c806a7f3f5ca7283911440"
+  },
+  {
+    "path": "README.md",
+    "bytes": 5742,
+    "sha256": "1af9a0c18089a25f6c7bbfda333e713a6e30772ff312ea6517e26edb5c8f5ffa"
+  },
+  {
+    "path": "src/array.nr",
+    "bytes": 2374,
+    "sha256": "5fd664ff274d1b5755385a20a2bfac198429422ab7549ffd4692bd4b79bbf6c6"
+  },
+  {
+    "path": "src/convert.nr",
+    "bytes": 1672,
+    "sha256": "26b8f6a3cc0c71f9e1ce590ca8b3cebfcea9aaf154b4b642160f5df215c81a9c"
+  },
+  {
+    "path": "src/hash.nr",
+    "bytes": 3773,
+    "sha256": "df8428092647a41d4c5826be5bf4244f098d248bb8f15df71944545894c77c5e"
+  },
+  {
+    "path": "src/lib.nr",
+    "bytes": 650,
+    "sha256": "8e4cd8009cd62bd7b65bc7bbc7ac911476decf0e075fbeacc8440ba611a2eeac"
+  },
+  {
+    "path": "src/math.nr",
+    "bytes": 1264,
+    "sha256": "17e381326d717f63fb547c8ba60b6242e99ace5603dfa7d2903373a1857b6b0d"
+  },
+  {
+    "path": "src/math/numeric.nr",
+    "bytes": 599,
+    "sha256": "551cebe2663e6e3bcd578b2008d358c4712cba9d830033388d177e77838806b3"
+  },
+  {
+    "path": "src/math/sqrt.nr",
+    "bytes": 3574,
+    "sha256": "e1222a3808aaff83c9efe09b5f3aaef99e9ef224072ec67b62829921d9d44852"
+  },
+  {
+    "path": "src/solidity.nr",
+    "bytes": 4231,
+    "sha256": "7af1f61393cff3b935b1cbbc454de185dee25a614bff03d23efbf2d3128b8c3a"
+  },
+  {
+    "path": "src/string.nr",
+    "bytes": 2581,
+    "sha256": "59e0872c80102c3feb21153912590abe953a30e4643a6a85166cc1a3b4b3f226"
+  },
+  {
+    "path": "src/tables.nr",
+    "bytes": 1975,
+    "sha256": "3797c682a4b79d0c0273ba305637228dc4aa5a02b535b232eae917a9adc446b8"
+  },
+  {
+    "path": "src/validate_inputs.nr",
+    "bytes": 2144,
+    "sha256": "d94c90a93de7d0534795677d89571ffe700fe9b75b3e1f9d3a242e49c8c2e31c"
+  },
+  {
+    "path": "tests/Nargo.toml",
+    "bytes": 80,
+    "sha256": "37c37b6499957fadfc16a78fa4d9996edf0005f8729b05e148b60f6666d14b70"
+  },
+  {
+    "path": "tests/src/lib.nr",
+    "bytes": 21,
+    "sha256": "cb0b2284a44eb57ec9b01a22fac1ad88e91bb7dd6e58b891a70147db7f355baa"
+  },
+  {
+    "path": "tests/src/validate_inputs.nr",
+    "bytes": 2163,
+    "sha256": "29a8ac61b09479f8f7f847f06bdab8af68a9092c5051505d2b635b4ec3ec105a"
+  }
+]

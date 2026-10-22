@@ -1,0 +1,6 @@
+{
+  "allowed_models": ["gpt-6-astra"],
+  "provider_executable": "/opt/tokenford-proof-private/read-one-account",
+  "provider_args": [],
+  "busy_lock": "/run/tokenford-proof/prover.lock"
+}

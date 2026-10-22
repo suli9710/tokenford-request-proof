@@ -1,0 +1,235 @@
+{
+  "archive_url": "https://codeload.github.com/zkemail/noir-jwt/tar.gz/v0.5.1",
+  "archive_sha256": "4988ab0fb25dd77f8ef695a7134d83959b4de40de04185119335176c47552479",
+  "locked_archive_sha256": "4988ab0fb25dd77f8ef695a7134d83959b4de40de04185119335176c47552479",
+  "locked_archive_match": true,
+  "bytes": 29656,
+  "repository": "https://github.com/zkemail/noir-jwt",
+  "ref": "v0.5.1",
+  "archive_member_count": 14,
+  "license_notice_paths": [
+    "LICENSE"
+  ],
+  "declarations": [
+    {
+      "path": "js/package-lock.json",
+      "sha256": "99633ae169ef1fc130804cd952a714c2ed3d1cb53d8388367a416511671d4294",
+      "lines": [
+        {
+          "line": 10,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 26,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 43,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 60,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 77,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 94,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 111,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 128,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 145,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 162,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 179,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 196,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 213,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 230,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 247,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 264,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 281,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 298,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 315,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 332,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 349,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 366,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 383,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 400,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 417,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 434,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 448,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 459,
+          "text": "\"license\": \"MIT\""
+        },
+        {
+          "line": 466,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 476,
+          "text": "\"license\": \"BSD-3-Clause\""
+        },
+        {
+          "line": 483,
+          "text": "\"license\": \"Apache-2.0\","
+        },
+        {
+          "line": 494,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 535,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 549,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 562,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 585,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 597,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 608,
+          "text": "\"license\": \"MIT\""
+        },
+        {
+          "line": 615,
+          "text": "\"license\": \"MIT\""
+        },
+        {
+          "line": 622,
+          "text": "\"license\": \"MIT\""
+        },
+        {
+          "line": 629,
+          "text": "\"license\": \"MIT\""
+        },
+        {
+          "line": 636,
+          "text": "\"license\": \"MIT\""
+        },
+        {
+          "line": 643,
+          "text": "\"license\": \"MIT\""
+        },
+        {
+          "line": 650,
+          "text": "\"license\": \"MIT\""
+        },
+        {
+          "line": 657,
+          "text": "\"license\": \"MIT\""
+        },
+        {
+          "line": 664,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 688,
+          "text": "\"license\": \"MIT\""
+        },
+        {
+          "line": 695,
+          "text": "\"license\": \"ISC\","
+        },
+        {
+          "line": 708,
+          "text": "\"license\": \"MIT\","
+        },
+        {
+          "line": 728,
+          "text": "\"license\": \"Apache-2.0\","
+        },
+        {
+          "line": 742,
+          "text": "\"license\": \"MIT\""
+        }
+      ]
+    },
+    {
+      "path": "js/package.json",
+      "sha256": "b1350ba5b11b779528e95cc89c7b9e3bce8e27a7b71f07446fe1812525c3ccc0",
+      "lines": [
+        {
+          "line": 38,
+          "text": "\"license\": \"MIT\","
+        }
+      ]
+    }
+  ]
+}

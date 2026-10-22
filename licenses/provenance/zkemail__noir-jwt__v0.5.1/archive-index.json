@@ -1,0 +1,72 @@
+[
+  {
+    "path": ".github/workflows/test.yml",
+    "bytes": 2677,
+    "sha256": "ee44015fb20ed72e0177fcb48bde931c0149076a21f0ebef9355b9998d8551cc"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 33,
+    "sha256": "d36609f52629bd99ce7e515c82adc2f85b16b6601a136c91739d5d78b6fee6cf"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 10947,
+    "sha256": "4458503dd48e88c4e0b945fb252a08b93c40ec757309b8ffa7c594dfa1e35104"
+  },
+  {
+    "path": "Nargo.toml",
+    "bytes": 720,
+    "sha256": "5c4ecad40cd590e9d1a6e891d083b0685479578805753438014182f8c4e7699e"
+  },
+  {
+    "path": "README.md",
+    "bytes": 7046,
+    "sha256": "607b64bf4c4e8870ccbe62895424a076e9dffc85732cd3db232fc0bcee2ead79"
+  },
+  {
+    "path": "js/package-lock.json",
+    "bytes": 23794,
+    "sha256": "99633ae169ef1fc130804cd952a714c2ed3d1cb53d8388367a416511671d4294"
+  },
+  {
+    "path": "js/package.json",
+    "bytes": 1480,
+    "sha256": "b1350ba5b11b779528e95cc89c7b9e3bce8e27a7b71f07446fe1812525c3ccc0"
+  },
+  {
+    "path": "js/scripts/noir-test-data.ts",
+    "bytes": 5744,
+    "sha256": "b995c4ee0f02810fd27ccb0fe6212d17434c03ed65d9bb3fe72f9ba7e275a67f"
+  },
+  {
+    "path": "js/src/generate-inputs.ts",
+    "bytes": 6175,
+    "sha256": "f71490cfc916d1f800f9b0050f60c18d2f67396d2f665830588dec5066dc0780"
+  },
+  {
+    "path": "js/src/index.ts",
+    "bytes": 110,
+    "sha256": "c0f5fbccd697778100cc1b36895699db022c29ea7166838e7101cd6d8a63b4ce"
+  },
+  {
+    "path": "js/src/partial-sha.ts",
+    "bytes": 3378,
+    "sha256": "06a9dfed649b359315a34a76355b6054e534cb9575fa0670a9060e75ebf43abd"
+  },
+  {
+    "path": "js/tsconfig.json",
+    "bytes": 494,
+    "sha256": "180bd9373757b4c60039abf39e1c549a545515fd6b1cbc778c3324303d1fbfee"
+  },
+  {
+    "path": "src/lib.nr",
+    "bytes": 56574,
+    "sha256": "a025169c6edfffc6a95357fceccfe00ad8420b8b6d19c91eb872524f59a6c588"
+  },
+  {
+    "path": "src/partial_hash.nr",
+    "bytes": 12710,
+    "sha256": "415032fa9dacfacf79570088bc5b00270de2c83c7b54ffee75230d66c477a1b7"
+  }
+]

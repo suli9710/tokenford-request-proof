@@ -1,0 +1,11 @@
+[package]
+name = "plan_proof_prototype"
+type = "bin"
+authors = []
+compiler_version = ">=1.0.0"
+
+[dependencies]
+jwt = { path = "../vendor/zkemail__noir-jwt__v0.5.1" }
+base64 = { path = "../vendor/noir-lang__noir_base64__v0.4.2" }
+sha256 = { path = "../vendor/noir-lang__sha256__v0.2.1" }
+json_parser = { path = "../vendor/noir-lang__noir_json_parser__dc8ad05fd63ef7518bf3adf3e5b61a87feb143b8" }

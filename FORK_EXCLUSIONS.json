@@ -1,0 +1,349 @@
+{
+  "schema": 1,
+  "input_archive_sha256": "4f3cbb0713fef41bd4745ad402440a38baa0c2d493863434c1800e236ec889fc",
+  "removed": {
+    "request-proof/artifacts/official-request-trial-2-checks.json": "real V1 request history, identity linkage, or associated request/summary",
+    "request-proof/artifacts/official-request-trial-2-summary.json": "real V1 request history, identity linkage, or associated request/summary",
+    "request-proof/artifacts/official-request-trial.json": "real V1 request history, identity linkage, or associated request/summary",
+    "request-proof/artifacts/official-trial-request.json": "real V1 request history, identity linkage, or associated request/summary",
+    "request-proof/artifacts/public-transport-probe-result.json": "unnecessary prior public upstream network-probe records",
+    "request-proof/artifacts/public-unauthenticated-probe-request.json": "unnecessary prior public upstream network-probe records",
+    "request-proof/artifacts/ssh-bad-host-key-before-exit-fix.json": "superseded historical synthetic failure; final negative case retained",
+    "request-proof/tlsn/crates/server-fixture/certs/src/tls/client_cert.key": "public upstream PEM private-key fixture",
+    "request-proof/tlsn/crates/server-fixture/certs/src/tls/client_cert_private_key.der": "public upstream DER private-key fixture",
+    "request-proof/tlsn/crates/server-fixture/certs/src/tls/root_ca.key": "public upstream PEM private-key fixture",
+    "request-proof/tlsn/crates/server-fixture/certs/src/tls/test_server.key": "public upstream PEM private-key fixture",
+    "request-proof/tlsn/crates/server-fixture/certs/src/tls/test_server_private_key.der": "public upstream DER private-key fixture",
+    "request-proof/tlsn/crates/tls/client/src/testdata/eddsakey.der": "public upstream DER private-key fixture",
+    "request-proof/tlsn/crates/tls/client/src/testdata/nistp256key.der": "public upstream DER private-key fixture",
+    "request-proof/tlsn/crates/tls/client/src/testdata/nistp256key.pkcs8.der": "public upstream DER private-key fixture",
+    "request-proof/tlsn/crates/tls/client/src/testdata/nistp384key.der": "public upstream DER private-key fixture",
+    "request-proof/tlsn/crates/tls/client/src/testdata/nistp384key.pkcs8.der": "public upstream DER private-key fixture",
+    "request-proof/tlsn/crates/tls/client/src/testdata/rsa2048key.pkcs1.der": "public upstream DER private-key fixture",
+    "request-proof/tlsn/crates/tls/client/src/testdata/rsa2048key.pkcs8.der": "public upstream DER private-key fixture",
+    "request-proof/tlsn/crates/tls/client/test-ca/ecdsa/ca.key": "public upstream PEM private-key fixture",
+    "request-proof/tlsn/crates/tls/client/test-ca/ecdsa/client.key": "public upstream PEM private-key fixture",
+    "request-proof/tlsn/crates/tls/client/test-ca/ecdsa/end.key": "public upstream PEM private-key fixture",
+    "request-proof/tlsn/crates/tls/client/test-ca/ecdsa/inter.key": "public upstream PEM private-key fixture",
+    "request-proof/tlsn/crates/tls/client/test-ca/ecdsa/nistp256.pem": "upstream public certificate or EC parameter in .pem format; excluded by pipeline policy",
+    "request-proof/tlsn/crates/tls/client/test-ca/ecdsa/nistp384.pem": "upstream public certificate or EC parameter in .pem format; excluded by pipeline policy",
+    "request-proof/tlsn/crates/tls/client/test-ca/eddsa/ca.key": "public upstream PEM private-key fixture",
+    "request-proof/tlsn/crates/tls/client/test-ca/eddsa/client.key": "public upstream PEM private-key fixture",
+    "request-proof/tlsn/crates/tls/client/test-ca/eddsa/end.key": "public upstream PEM private-key fixture",
+    "request-proof/tlsn/crates/tls/client/test-ca/eddsa/inter.key": "public upstream PEM private-key fixture",
+    "request-proof/tlsn/crates/tls/client/test-ca/rsa/ca.key": "public upstream PEM private-key fixture",
+    "request-proof/tlsn/crates/tls/client/test-ca/rsa/client.key": "public upstream PEM private-key fixture",
+    "request-proof/tlsn/crates/tls/client/test-ca/rsa/client.rsa": "public upstream PEM private-key fixture",
+    "request-proof/tlsn/crates/tls/client/test-ca/rsa/end.key": "public upstream PEM private-key fixture",
+    "request-proof/tlsn/crates/tls/client/test-ca/rsa/end.rsa": "public upstream PEM private-key fixture",
+    "request-proof/tlsn/crates/tls/client/test-ca/rsa/inter.key": "public upstream PEM private-key fixture",
+    "request-proof/tlsn/crates/tls/core/testdata/cert-digicert.pem": "upstream public certificate or EC parameter in .pem format; excluded by pipeline policy",
+    "request-proof/tlsn/crates/tls/core/testdata/eddsakey.der": "public upstream DER private-key fixture",
+    "request-proof/tlsn/crates/tls/core/testdata/nistp256key.der": "public upstream DER private-key fixture",
+    "request-proof/tlsn/crates/tls/core/testdata/nistp256key.pkcs8.der": "public upstream DER private-key fixture",
+    "request-proof/tlsn/crates/tls/core/testdata/nistp384key.der": "public upstream DER private-key fixture",
+    "request-proof/tlsn/crates/tls/core/testdata/nistp384key.pkcs8.der": "public upstream DER private-key fixture",
+    "request-proof/tlsn/crates/tls/core/testdata/rsa2048key.pkcs1.der": "public upstream DER private-key fixture",
+    "request-proof/tlsn/crates/tls/core/testdata/rsa2048key.pkcs8.der": "public upstream DER private-key fixture",
+    "request-proof/tlsn/crates/tls/server-fixture/src/root_ca.key": "public upstream PEM private-key fixture",
+    "request-proof/tlsn/crates/tls/server-fixture/src/test_server.key": "public upstream PEM private-key fixture",
+    "request-proof/tlsn/crates/tls/server-fixture/src/test_server_private_key.der": "public upstream DER private-key fixture",
+    "zk-prototype/artifacts/independent-verification.json": "real account history proof/receipt/JWKS cache; no stable account linkage in public fork",
+    "zk-prototype/artifacts/official-account-1-proof.json": "real account history proof/receipt/JWKS cache; no stable account linkage in public fork",
+    "zk-prototype/artifacts/official-account-2-proof.json": "real account history proof/receipt/JWKS cache; no stable account linkage in public fork",
+    "zk-prototype/artifacts/official-account-3-proof.json": "real account history proof/receipt/JWKS cache; no stable account linkage in public fork",
+    "zk-prototype/artifacts/official-account-4-proof.json": "real account history proof/receipt/JWKS cache; no stable account linkage in public fork",
+    "zk-prototype/artifacts/official-jwks.json": "real account history proof/receipt/JWKS cache; no stable account linkage in public fork",
+    "zk-prototype/artifacts/official-result.json": "real account history proof/receipt/JWKS cache; no stable account linkage in public fork"
+  },
+  "upstream_fixture_removals": [
+    {
+      "path": "request-proof/tlsn/crates/server-fixture/certs/src/tls/client_cert.key",
+      "classification": "public upstream PEM private-key fixture",
+      "compile_time_references": [],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/server-fixture/certs/src/tls/client_cert_private_key.der",
+      "classification": "public upstream DER private-key fixture",
+      "compile_time_references": [
+        "request-proof/tlsn/crates/server-fixture/certs/src/lib.rs"
+      ],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/server-fixture/certs/src/tls/root_ca.key",
+      "classification": "public upstream PEM private-key fixture",
+      "compile_time_references": [],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/server-fixture/certs/src/tls/test_server.key",
+      "classification": "public upstream PEM private-key fixture",
+      "compile_time_references": [],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/server-fixture/certs/src/tls/test_server_private_key.der",
+      "classification": "public upstream DER private-key fixture",
+      "compile_time_references": [
+        "request-proof/tlsn/crates/server-fixture/certs/src/lib.rs"
+      ],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/client/src/testdata/eddsakey.der",
+      "classification": "public upstream DER private-key fixture",
+      "compile_time_references": [
+        "request-proof/tlsn/crates/tls/client/src/sign.rs"
+      ],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/client/src/testdata/nistp256key.der",
+      "classification": "public upstream DER private-key fixture",
+      "compile_time_references": [
+        "request-proof/tlsn/crates/tls/client/src/sign.rs"
+      ],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/client/src/testdata/nistp256key.pkcs8.der",
+      "classification": "public upstream DER private-key fixture",
+      "compile_time_references": [
+        "request-proof/tlsn/crates/tls/client/src/sign.rs"
+      ],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/client/src/testdata/nistp384key.der",
+      "classification": "public upstream DER private-key fixture",
+      "compile_time_references": [
+        "request-proof/tlsn/crates/tls/client/src/sign.rs"
+      ],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/client/src/testdata/nistp384key.pkcs8.der",
+      "classification": "public upstream DER private-key fixture",
+      "compile_time_references": [
+        "request-proof/tlsn/crates/tls/client/src/sign.rs"
+      ],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/client/src/testdata/rsa2048key.pkcs1.der",
+      "classification": "public upstream DER private-key fixture",
+      "compile_time_references": [
+        "request-proof/tlsn/crates/tls/client/src/sign.rs"
+      ],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/client/src/testdata/rsa2048key.pkcs8.der",
+      "classification": "public upstream DER private-key fixture",
+      "compile_time_references": [
+        "request-proof/tlsn/crates/tls/client/src/sign.rs"
+      ],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/client/test-ca/ecdsa/ca.key",
+      "classification": "public upstream PEM private-key fixture",
+      "compile_time_references": [
+        "request-proof/tlsn/crates/tls/client/tests/common/mod.rs (embed_files! -> include_bytes!)"
+      ],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/client/test-ca/ecdsa/client.key",
+      "classification": "public upstream PEM private-key fixture",
+      "compile_time_references": [
+        "request-proof/tlsn/crates/tls/client/tests/common/mod.rs (embed_files! -> include_bytes!)"
+      ],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/client/test-ca/ecdsa/end.key",
+      "classification": "public upstream PEM private-key fixture",
+      "compile_time_references": [
+        "request-proof/tlsn/crates/tls/client/tests/common/mod.rs (embed_files! -> include_bytes!)"
+      ],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/client/test-ca/ecdsa/inter.key",
+      "classification": "public upstream PEM private-key fixture",
+      "compile_time_references": [
+        "request-proof/tlsn/crates/tls/client/tests/common/mod.rs (embed_files! -> include_bytes!)"
+      ],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/client/test-ca/ecdsa/nistp256.pem",
+      "classification": "upstream public certificate or EC parameter in .pem format; excluded by pipeline policy",
+      "compile_time_references": [
+        "request-proof/tlsn/crates/tls/client/tests/common/mod.rs (embed_files! -> include_bytes!)"
+      ],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/client/test-ca/ecdsa/nistp384.pem",
+      "classification": "upstream public certificate or EC parameter in .pem format; excluded by pipeline policy",
+      "compile_time_references": [
+        "request-proof/tlsn/crates/tls/client/tests/common/mod.rs (embed_files! -> include_bytes!)"
+      ],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/client/test-ca/eddsa/ca.key",
+      "classification": "public upstream PEM private-key fixture",
+      "compile_time_references": [
+        "request-proof/tlsn/crates/tls/client/tests/common/mod.rs (embed_files! -> include_bytes!)"
+      ],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/client/test-ca/eddsa/client.key",
+      "classification": "public upstream PEM private-key fixture",
+      "compile_time_references": [
+        "request-proof/tlsn/crates/tls/client/tests/common/mod.rs (embed_files! -> include_bytes!)"
+      ],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/client/test-ca/eddsa/end.key",
+      "classification": "public upstream PEM private-key fixture",
+      "compile_time_references": [
+        "request-proof/tlsn/crates/tls/client/tests/common/mod.rs (embed_files! -> include_bytes!)"
+      ],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/client/test-ca/eddsa/inter.key",
+      "classification": "public upstream PEM private-key fixture",
+      "compile_time_references": [
+        "request-proof/tlsn/crates/tls/client/tests/common/mod.rs (embed_files! -> include_bytes!)"
+      ],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/client/test-ca/rsa/ca.key",
+      "classification": "public upstream PEM private-key fixture",
+      "compile_time_references": [
+        "request-proof/tlsn/crates/tls/client/tests/common/mod.rs (embed_files! -> include_bytes!)"
+      ],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/client/test-ca/rsa/client.key",
+      "classification": "public upstream PEM private-key fixture",
+      "compile_time_references": [
+        "request-proof/tlsn/crates/tls/client/tests/common/mod.rs (embed_files! -> include_bytes!)"
+      ],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/client/test-ca/rsa/client.rsa",
+      "classification": "public upstream PEM private-key fixture",
+      "compile_time_references": [
+        "request-proof/tlsn/crates/tls/client/tests/common/mod.rs (embed_files! -> include_bytes!)"
+      ],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/client/test-ca/rsa/end.key",
+      "classification": "public upstream PEM private-key fixture",
+      "compile_time_references": [
+        "request-proof/tlsn/crates/tls/client/tests/common/mod.rs (embed_files! -> include_bytes!)"
+      ],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/client/test-ca/rsa/end.rsa",
+      "classification": "public upstream PEM private-key fixture",
+      "compile_time_references": [
+        "request-proof/tlsn/crates/tls/client/tests/common/mod.rs (embed_files! -> include_bytes!)"
+      ],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/client/test-ca/rsa/inter.key",
+      "classification": "public upstream PEM private-key fixture",
+      "compile_time_references": [
+        "request-proof/tlsn/crates/tls/client/tests/common/mod.rs (embed_files! -> include_bytes!)"
+      ],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/core/testdata/cert-digicert.pem",
+      "classification": "upstream public certificate or EC parameter in .pem format; excluded by pipeline policy",
+      "compile_time_references": [],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/core/testdata/eddsakey.der",
+      "classification": "public upstream DER private-key fixture",
+      "compile_time_references": [],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/core/testdata/nistp256key.der",
+      "classification": "public upstream DER private-key fixture",
+      "compile_time_references": [],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/core/testdata/nistp256key.pkcs8.der",
+      "classification": "public upstream DER private-key fixture",
+      "compile_time_references": [],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/core/testdata/nistp384key.der",
+      "classification": "public upstream DER private-key fixture",
+      "compile_time_references": [],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/core/testdata/nistp384key.pkcs8.der",
+      "classification": "public upstream DER private-key fixture",
+      "compile_time_references": [],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/core/testdata/rsa2048key.pkcs1.der",
+      "classification": "public upstream DER private-key fixture",
+      "compile_time_references": [],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/core/testdata/rsa2048key.pkcs8.der",
+      "classification": "public upstream DER private-key fixture",
+      "compile_time_references": [],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/server-fixture/src/root_ca.key",
+      "classification": "public upstream PEM private-key fixture",
+      "compile_time_references": [],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/server-fixture/src/test_server.key",
+      "classification": "public upstream PEM private-key fixture",
+      "compile_time_references": [],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    },
+    {
+      "path": "request-proof/tlsn/crates/tls/server-fixture/src/test_server_private_key.der",
+      "classification": "public upstream DER private-key fixture",
+      "compile_time_references": [
+        "request-proof/tlsn/crates/tls/server-fixture/src/lib.rs"
+      ],
+      "main_client_release_impact": "No ordinary release path dependency on server-fixture crates; client src/testdata includes are under #[cfg(test)]; no cryptographic source edited. Upstream tests/examples using omitted fixture files require regeneration."
+    }
+  ],
+  "cryptographic_sources_modified": false,
+  "trust_manifests_refreshed": false
+}

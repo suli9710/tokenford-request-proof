@@ -1,0 +1,14 @@
+{
+  "archive_url": "https://codeload.github.com/noir-lang/noir-bignum/tar.gz/v0.8.0",
+  "archive_sha256": "367487c8c28e447aa6c35e561ef4484571e1afdb1647b52b355fdb44fe7e2451",
+  "locked_archive_sha256": "367487c8c28e447aa6c35e561ef4484571e1afdb1647b52b355fdb44fe7e2451",
+  "locked_archive_match": true,
+  "bytes": 65976,
+  "repository": "https://github.com/noir-lang/noir-bignum",
+  "ref": "v0.8.0",
+  "archive_member_count": 66,
+  "license_notice_paths": [
+    "LICENSE"
+  ],
+  "declarations": []
+}

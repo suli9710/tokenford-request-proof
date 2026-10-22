@@ -1,0 +1,15 @@
+[package]
+name = "jwt"
+type = "lib"
+version = "0.5.1"
+authors = ["saleel"]
+compiler_version = ">=1.0.0"
+
+[dependencies]
+rsa = { path = "../zkpassport__noir_rsa__v0.9.1" }
+sha256 = { path = "../noir-lang__sha256__v0.2.1" }
+base64 = { path = "../noir-lang__noir_base64__v0.4.2" }
+string_search = { path = "../noir-lang__noir_string_search__v0.3.3" }
+bignum = { path = "../noir-lang__noir-bignum__v0.8.0" }
+# zkemail = { git = "https://github.com/zkemail/zkemail.nr", tag="v0.4.2", directory="lib" } # for partial SHA
+nodash = { path = "../olehmisar__nodash__v0.42.0" }

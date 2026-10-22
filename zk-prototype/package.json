@@ -1,0 +1,16 @@
+{
+  "name": "tokenford-plan-proof-prototype",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo": "node --max-old-space-size=16384 prototype.mjs",
+    "verify": "node --max-old-space-size=8192 verify.mjs",
+    "verify:official": "python -B verify_official.py"
+  },
+  "dependencies": {
+    "@aztec/bb.js": "3.0.0-nightly.20251104",
+    "@noir-lang/noir_js": "1.0.0-beta.14",
+    "@noir-lang/noir_wasm": "1.0.0-beta.14",
+    "noir-jwt": "0.4.5"
+  }
+}

@@ -1,0 +1,92 @@
+name: Manual source review and provenance
+
+on:
+  workflow_dispatch:
+    inputs:
+      expected_manifest:
+        description: Independently accepted source-manifest.json SHA256 (64 lowercase hex)
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  review:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    env:
+      EXPECTED_MANIFEST: ${{ inputs.expected_manifest }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.12.10'
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '24.11.1'
+      - name: Check accepted source before installation
+        shell: bash
+        run: |
+          set -euo pipefail
+          [[ "$EXPECTED_MANIFEST" =~ ^[0-9a-f]{64}$ ]]
+          [[ "$(cut -d ' ' -f 1 SOURCE_MANIFEST_SHA256)" == "$EXPECTED_MANIFEST" ]]
+          python -B review.py check --expected-manifest "$(cut -d ' ' -f 1 SOURCE_MANIFEST_SHA256)"
+      - name: Select Rust and local Python environment
+        shell: bash
+        run: |
+          set -euo pipefail
+          rustup toolchain install 1.95.0 --profile minimal
+          ssh -V
+          PROOF_PYTHON="$(command -v python)" bash setup.sh
+      - name: Build, compare circuit and run synthetic checks
+        shell: bash
+        run: |
+          set -euo pipefail
+          .venv/bin/python -B review.py build
+          .venv/bin/python -B review.py runtime
+          .venv/bin/python -B review.py reproduce
+          .venv/bin/python -B review.py audit
+          .venv/bin/python -B scripts/package_source.py --out build/source.zip
+
+  source-provenance:
+    needs: review
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    # Only this job can request an OIDC token or write an attestation.
+    permissions:
+      contents: read
+      id-token: write
+      attestations: write
+    env:
+      EXPECTED_MANIFEST: ${{ inputs.expected_manifest }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.12.10'
+      - name: Recheck and package only source from this commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          [[ "$EXPECTED_MANIFEST" =~ ^[0-9a-f]{64}$ ]]
+          [[ "$(cut -d ' ' -f 1 SOURCE_MANIFEST_SHA256)" == "$EXPECTED_MANIFEST" ]]
+          python -B review.py check --expected-manifest "$(cut -d ' ' -f 1 SOURCE_MANIFEST_SHA256)"
+          python -B scripts/package_source.py --out build/source.zip
+      - name: Attest source archive origin (not security or account authenticity)
+        uses: actions/attest-build-provenance@4d101475d8b20a2381f78447822ac1eab6504dd8 # v4.2.2
+        with:
+          subject-path: build/source.zip
+      - name: Upload source archive and public digest summary
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: source-${{ github.sha }}
+          path: |
+            build/source.zip
+            build/source.json
+          if-no-files-found: error
+          retention-days: 14

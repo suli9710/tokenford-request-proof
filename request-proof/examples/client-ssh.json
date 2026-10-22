@@ -1,0 +1,7 @@
+{
+  "host": "proof.example.invalid",
+  "port": 22,
+  "user": "tokenford-proof",
+  "identity_file": "C:/Users/USER/.ssh/tokenford-proof",
+  "known_hosts_file": "C:/Users/USER/.ssh/tokenford-proof-known-hosts"
+}

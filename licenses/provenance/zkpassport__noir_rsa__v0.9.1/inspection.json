@@ -1,0 +1,14 @@
+{
+  "archive_url": "https://codeload.github.com/zkpassport/noir_rsa/tar.gz/v0.9.1",
+  "archive_sha256": "ecc03d9edb15249cdf26e663772a8857b35e516ce89d57450503dec5ad67f78c",
+  "locked_archive_sha256": "ecc03d9edb15249cdf26e663772a8857b35e516ce89d57450503dec5ad67f78c",
+  "locked_archive_match": true,
+  "bytes": 46801,
+  "repository": "https://github.com/zkpassport/noir_rsa",
+  "ref": "v0.9.1",
+  "archive_member_count": 24,
+  "license_notice_paths": [
+    "LICENSE"
+  ],
+  "declarations": []
+}

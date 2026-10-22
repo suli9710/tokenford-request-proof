@@ -1,0 +1,77 @@
+[
+  {
+    "path": ".github/NIGHTLY_CANARY_DIED.md",
+    "bytes": 417,
+    "sha256": "80dbcf41022fcb8dc71bdc206923386191b97b62efc1b76e5e689c005ad65485"
+  },
+  {
+    "path": ".github/workflows/benchmark.yml",
+    "bytes": 1391,
+    "sha256": "82bee99f8568a6d21363b5d5d9bcb45bde98510add1988c4c02a0446fffaf89c"
+  },
+  {
+    "path": ".github/workflows/nightly-canary.yml",
+    "bytes": 919,
+    "sha256": "80983a516545d7507c0002404be91529918393f8360d1ccf5933b47a7fe9628b"
+  },
+  {
+    "path": ".github/workflows/pull-request-title.yml",
+    "bytes": 587,
+    "sha256": "13f61844a797a528e5fc0cf938016cf69d78f2e904c09db5022b74d859f7d3dd"
+  },
+  {
+    "path": ".github/workflows/release.yml",
+    "bytes": 461,
+    "sha256": "662210d578b9c1dd0e74d1a917f0b908be5fcef48dfdbae65ec16858b6f82063"
+  },
+  {
+    "path": ".github/workflows/test.yml",
+    "bytes": 2615,
+    "sha256": "12b58e69c6bc00489a81070f10742ea6e3608e6d734406bd6774ea7c2ed80cc2"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 13,
+    "sha256": "10f860ebd4fb9dcb1b88ed0189698baca5433f59a2015b69ba1b6d422c48a0c5"
+  },
+  {
+    "path": ".release-please-manifest.json",
+    "bytes": 14,
+    "sha256": "5edff63e38baad8e06a1e56f8cde87d9a1e8a80945a47d9b5b6cd8ba0311f439"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "bytes": 822,
+    "sha256": "4afbba0e86d2d5d50299261a4062a067e0b6486f6a6a36b69d705d865d2f4cd8"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 10947,
+    "sha256": "4458503dd48e88c4e0b945fb252a08b93c40ec757309b8ffa7c594dfa1e35104"
+  },
+  {
+    "path": "Nargo.toml",
+    "bytes": 111,
+    "sha256": "82e49aefbe34621d30783018a414f947381a8fdc161c8efbe972b1ecf2bc969d"
+  },
+  {
+    "path": "README.md",
+    "bytes": 755,
+    "sha256": "43c7b88144d252051239b1ab5f9325cdf407c4cf39a7722741b0d57e7f2756b2"
+  },
+  {
+    "path": "release-please-config.json",
+    "bytes": 383,
+    "sha256": "657c0bacc9abc669cda3d54667fc3db91fee93fa03eb2a124e3599de4c5c16ab"
+  },
+  {
+    "path": "scripts/build-gates-report.sh",
+    "bytes": 832,
+    "sha256": "8c0e213f6b3a64d0a9137e2d26b55f937206ced4781d2ebd307192f07c85e024"
+  },
+  {
+    "path": "src/lib.nr",
+    "bytes": 4366,
+    "sha256": "83250ba71293c29cfce2fb7c009cc32d36eb643538dfd9d15c0d0ec41f820c36"
+  }
+]

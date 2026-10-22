@@ -1,0 +1,86 @@
+[
+  {
+    "repository": "https://github.com/zkemail/noir-jwt",
+    "tag": "v0.5.1",
+    "directory": "",
+    "archive_sha256": "4988ab0fb25dd77f8ef695a7134d83959b4de40de04185119335176c47552479"
+  },
+  {
+    "repository": "https://github.com/zkpassport/noir_rsa",
+    "tag": "v0.9.1",
+    "directory": "",
+    "archive_sha256": "ecc03d9edb15249cdf26e663772a8857b35e516ce89d57450503dec5ad67f78c"
+  },
+  {
+    "repository": "https://github.com/noir-lang/noir-bignum",
+    "tag": "v0.8.0",
+    "directory": "",
+    "archive_sha256": "367487c8c28e447aa6c35e561ef4484571e1afdb1647b52b355fdb44fe7e2451"
+  },
+  {
+    "repository": "https://github.com/noir-lang/poseidon",
+    "tag": "v0.1.1",
+    "directory": "",
+    "archive_sha256": "1e380ed733b660798c749541cfe3827a760e03b05d4af3a27d60be5734bad6fe"
+  },
+  {
+    "repository": "https://github.com/noir-lang/sha256",
+    "tag": "v0.2.1",
+    "directory": "",
+    "archive_sha256": "bbac7548b03a99ca0be27bbe1e7292c40767a603893bd58a30811ee7204f5b52"
+  },
+  {
+    "repository": "https://github.com/zkpassport/sha512",
+    "tag": "v0.1.0",
+    "directory": "",
+    "archive_sha256": "9a84ba7beaa17540300e96a7e5128809eedbab128a47817c1e6b7967f1efe148"
+  },
+  {
+    "repository": "https://github.com/zac-williamson/sha1",
+    "tag": "v0.11",
+    "directory": "",
+    "archive_sha256": "ca8bd58410ab1dd21af261ad528e8b665d843be5b9b59b15449feb7f07080f87"
+  },
+  {
+    "repository": "https://github.com/noir-lang/noir_base64",
+    "tag": "v0.4.2",
+    "directory": "",
+    "archive_sha256": "3286bdb660b62f3899136b041e75502b7ba5969d04446a66d0390a84e3096ec1"
+  },
+  {
+    "repository": "https://github.com/noir-lang/noir_string_search",
+    "tag": "v0.3.3",
+    "directory": "",
+    "archive_sha256": "79069f4aa816cc247260ad69d57406b0bee1e7fd6c4846ad5b84981f86cbd59b"
+  },
+  {
+    "repository": "https://github.com/olehmisar/nodash",
+    "tag": "v0.42.0",
+    "directory": "",
+    "archive_sha256": "d0a3aed81ed5418b21d989bfaccd54ca7acb82c28b8fafa1f737718d5ab77d35"
+  },
+  {
+    "repository": "https://github.com/noir-lang/keccak256",
+    "tag": "v0.1.1",
+    "directory": "",
+    "archive_sha256": "0eaea329777a658bf0b404b6d1a5cc7296ab83bc6ded7cb90321b2c76529eac4"
+  },
+  {
+    "repository": "https://github.com/noir-lang/noir_json_parser",
+    "tag": "dc8ad05fd63ef7518bf3adf3e5b61a87feb143b8",
+    "directory": "",
+    "archive_sha256": "538e8d40579595d279b1d270d8060ec201e572b9fa737681d41ca4e3ad67428c"
+  },
+  {
+    "repository": "https://github.com/noir-lang/noir_sort",
+    "tag": "v0.3.0",
+    "directory": "",
+    "archive_sha256": "df04fd034f70b3d6d0baeef57e1eab063fde7faf7854b3b5a27c87cea6fa7117"
+  },
+  {
+    "repository": "https://github.com/noir-lang/noir_check_shuffle",
+    "tag": "v0.2.1",
+    "directory": "",
+    "archive_sha256": "e752c59a70ee777898f452835ae845ff9ee45ab86f1c1fb25461802538042158"
+  }
+]

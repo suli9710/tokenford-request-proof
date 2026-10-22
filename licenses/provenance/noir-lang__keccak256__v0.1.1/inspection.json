@@ -1,0 +1,12 @@
+{
+  "archive_url": "https://codeload.github.com/noir-lang/keccak256/tar.gz/v0.1.1",
+  "archive_sha256": "0eaea329777a658bf0b404b6d1a5cc7296ab83bc6ded7cb90321b2c76529eac4",
+  "locked_archive_sha256": "0eaea329777a658bf0b404b6d1a5cc7296ab83bc6ded7cb90321b2c76529eac4",
+  "locked_archive_match": true,
+  "bytes": 23445,
+  "repository": "https://github.com/noir-lang/keccak256",
+  "ref": "v0.1.1",
+  "archive_member_count": 20,
+  "license_notice_paths": [],
+  "declarations": []
+}

@@ -1,0 +1,8 @@
+[package]
+name = "noir_sort"
+type = "lib"
+authors = [""]
+compiler_version = ">=0.36.0"
+
+[dependencies]
+check_shuffle = {tag = "v0.2.1", git = "https://github.com/noir-lang/noir_check_shuffle"}

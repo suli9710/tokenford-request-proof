@@ -1,0 +1,137 @@
+[
+  {
+    "path": ".github/NIGHTLY_CANARY_DIED.md",
+    "bytes": 392,
+    "sha256": "d3aa58b41731e909679bb1239b56aa0948c515e62a0afb44a11f963a6fbd8d36"
+  },
+  {
+    "path": ".github/workflows/benchmark.yml",
+    "bytes": 1403,
+    "sha256": "87f60f569c9bcd4092b1b90322dceaa00ade54591610b491e9f6d4ae7dea0d9d"
+  },
+  {
+    "path": ".github/workflows/nightly-canary.yml",
+    "bytes": 905,
+    "sha256": "4e311e1a6acc92dade3d8694ee40c82991155202d994bf4cca14d4ff345dc153"
+  },
+  {
+    "path": ".github/workflows/pull-request-title.yml",
+    "bytes": 587,
+    "sha256": "13f61844a797a528e5fc0cf938016cf69d78f2e904c09db5022b74d859f7d3dd"
+  },
+  {
+    "path": ".github/workflows/release.yml",
+    "bytes": 461,
+    "sha256": "662210d578b9c1dd0e74d1a917f0b908be5fcef48dfdbae65ec16858b6f82063"
+  },
+  {
+    "path": ".github/workflows/test.yml",
+    "bytes": 3309,
+    "sha256": "24f79c8f01eb34e91536adf708583196579046531e73638882b3582614edd8a7"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 32,
+    "sha256": "b38111f17d352f9d44144b0feadc7b700f26d48734ffcae381e1ca5e43f954c7"
+  },
+  {
+    "path": ".release-please-manifest.json",
+    "bytes": 14,
+    "sha256": "f974f3b63091a0a3a51e2de7a7595504854fb36c59a637ba7794077721e2b443"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "bytes": 520,
+    "sha256": "321da9ebe4c58c694384872b654ea10772621ecdd14f1792f7260f4b2a5d8e65"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 5318,
+    "sha256": "e628271a7e5c950c86db39002729b77bfd8c4339199826454abe796f369d5779"
+  },
+  {
+    "path": "Cargo.lock",
+    "bytes": 66665,
+    "sha256": "0090fb0cd8f7f9dcb3a1ee0c0e93d8e519d3246182de587a30bd3e85a97479e7"
+  },
+  {
+    "path": "Cargo.toml",
+    "bytes": 190,
+    "sha256": "da85e14a1fc112bd5206fd7e744289947b507c7c4255e690cf587a0c5bd16eaf"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 10947,
+    "sha256": "4458503dd48e88c4e0b945fb252a08b93c40ec757309b8ffa7c594dfa1e35104"
+  },
+  {
+    "path": "Nargo.toml",
+    "bytes": 102,
+    "sha256": "551d27ec7bf58e6e40896ee424210ac0f3724b29c05068cf34fef3ea8ca1b57a"
+  },
+  {
+    "path": "README.md",
+    "bytes": 707,
+    "sha256": "8728aabfec11147f33fcc2bfe730feb56081f1c00986a7353369dfe6c023d44c"
+  },
+  {
+    "path": "release-please-config.json",
+    "bytes": 383,
+    "sha256": "657c0bacc9abc669cda3d54667fc3db91fee93fa03eb2a124e3599de4c5c16ab"
+  },
+  {
+    "path": "scripts/build-gates-report.sh",
+    "bytes": 832,
+    "sha256": "8c0e213f6b3a64d0a9137e2d26b55f937206ced4781d2ebd307192f07c85e024"
+  },
+  {
+    "path": "scripts/fuzz-test.sh",
+    "bytes": 303,
+    "sha256": "a749e0ab43afebca00eff5a0e238d74522560466052846580ddeb217dcc23177"
+  },
+  {
+    "path": "src/bench.nr",
+    "bytes": 140,
+    "sha256": "6f37e9a3bc035d6a4d72a5ff6b31cd088089616f3262516ab261ae2b3b7b9d7c"
+  },
+  {
+    "path": "src/lib.nr",
+    "bytes": 103,
+    "sha256": "b298dd6b753df0a2946ac2a2c17ac248fa850c022fcc0403751af710aff949a7"
+  },
+  {
+    "path": "src/poseidon/bn254.nr",
+    "bytes": 3541,
+    "sha256": "3007cd7ed46c89b92d613e5af93f40ab9c9aa76a05ae1b13c39c507a7b342694"
+  },
+  {
+    "path": "src/poseidon/bn254/consts.nr",
+    "bytes": 1907961,
+    "sha256": "0e1ce6ec6ed2ebbab52739ab07a2ab7a9cfb9b479cb012527f5e08447677dfd2"
+  },
+  {
+    "path": "src/poseidon/bn254/perm.nr",
+    "bytes": 2299,
+    "sha256": "1daf55657af0418deb717b74cd45a1a4e9ac9d59678335cf0e677ed8a682be23"
+  },
+  {
+    "path": "src/poseidon/mod.nr",
+    "bytes": 10047,
+    "sha256": "a4682f0d4aa03250784c07a06da5bc7c7278eb02a95bd77eb36795e3206f0f9b"
+  },
+  {
+    "path": "src/poseidon2.nr",
+    "bytes": 3352,
+    "sha256": "2bb2b3e1d99390535d647cc64491c71754c391fd9d1b2d430e140800432989a7"
+  },
+  {
+    "path": "src/tests.nr",
+    "bytes": 1323,
+    "sha256": "41515204b15fb01b0277bc4745dde42032d4e314545f4f4c109b21b54f783662"
+  },
+  {
+    "path": "tests/differential.rs",
+    "bytes": 165,
+    "sha256": "33980bd2aa12385da78f1a6514819dbf6ad1ab62077ae2cd5e23f8b0edab79a1"
+  }
+]

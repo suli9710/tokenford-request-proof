@@ -1,0 +1,438 @@
+{
+  "schema": 1,
+  "scope": "Read-only inspection of default-branch HEADs resolved by git ls-remote and selected subsequent release tags. Not an exhaustive audit of every historical commit. No source or lock was upgraded.",
+  "result": "No applicable unchanged-algorithm licensed version found in inspected candidates. Exact locked versions remain unresolved.",
+  "components": [
+    {
+      "repo": "noir-lang/keccak256",
+      "locked_ref": "v0.1.1",
+      "locked_archive": {
+        "url": "https://codeload.github.com/noir-lang/keccak256/tar.gz/v0.1.1",
+        "sha256": "0eaea329777a658bf0b404b6d1a5cc7296ab83bc6ded7cb90321b2c76529eac4"
+      },
+      "candidates": [
+        {
+          "label": "current-main",
+          "commit": "3a81a0e3ba7167c65536e9aa9a9500d570d2d3e3",
+          "archive": {
+            "url": "https://codeload.github.com/noir-lang/keccak256/tar.gz/3a81a0e3ba7167c65536e9aa9a9500d570d2d3e3",
+            "sha256": "f8a6b4f89f12b2d80256335c5a173ed930ca8cd400067af1d48dd83e32b00140"
+          },
+          "upstream_license_notice_paths": [
+            "LICENSE"
+          ],
+          "declarations": [
+            {
+              "path": "README.md",
+              "sha256": "ac8e34fffe1c489bbf7f82fbd6af300d6063c3f18e0da0301e671b032a4c8ed4",
+              "lines": [
+                {
+                  "line": 6,
+                  "text": "> keccak256 is provided \"as is\", without warranty of any kind (see [LICENSE](LICENSE)). Bugs in this library can lead to under-constrained circuits, allowing invalid proofs to be accepted. Do not rely on it to protect real assets or sensitive data without your own independent review."
+                }
+              ]
+            }
+          ],
+          "nr_file_comparisons": [
+            {
+              "path": "src/keccak256.nr",
+              "locked_sha256": "1a4c3c22c3bab4b7c5ca63b8a6547ffa6290e303f042d7e947b28a5666d0bcd8",
+              "candidate_sha256": "215d5749db94365c9a18f521e8e1bcf82c12a2e265872cc88311192750e80f5b",
+              "status": "changed"
+            },
+            {
+              "path": "src/keccak256/benchmarks.nr",
+              "locked_sha256": null,
+              "candidate_sha256": "3442d0a39314c488b971cedd680418f6ea465fa609b94516a989fdc6b2e394fe",
+              "status": "added"
+            },
+            {
+              "path": "src/keccak256/oracle_tests.nr",
+              "locked_sha256": null,
+              "candidate_sha256": "f14a2958350d4270bc4ee6a78591c5df7f2b3e51ec7f248ffdc1e8ef269b8e0c",
+              "status": "added"
+            },
+            {
+              "path": "src/keccak256/tests.nr",
+              "locked_sha256": "9f5cd201e2eba5889a6fd12f21349f9844f145fab03b2f3385f7d558f93a6e6d",
+              "candidate_sha256": "bcea9b4df530d8f5d760a6b9872dffc20a4963c85f6ecd9cf1ea914e163c77df",
+              "status": "changed"
+            },
+            {
+              "path": "src/lib.nr",
+              "locked_sha256": "ff5769ab59f5a48507abe1e403722fb83765e5387d85255d75a55e95c4146fe5",
+              "candidate_sha256": "ff5769ab59f5a48507abe1e403722fb83765e5387d85255d75a55e95c4146fe5",
+              "status": "identical"
+            }
+          ],
+          "all_nr_bytes_identical": false,
+          "applicable_unchanged_algorithm_license_candidate": false
+        },
+        {
+          "label": "v0.1.2",
+          "commit": "47d8cf8df8d68b6bce5ee18cdd5f06a4b6556c6d",
+          "archive": {
+            "url": "https://codeload.github.com/noir-lang/keccak256/tar.gz/47d8cf8df8d68b6bce5ee18cdd5f06a4b6556c6d",
+            "sha256": "02bde804f00bb04d00b771a0532e282a69a56f6e47923ea945499b8b524122cc"
+          },
+          "upstream_license_notice_paths": [],
+          "declarations": [],
+          "nr_file_comparisons": [
+            {
+              "path": "src/keccak256.nr",
+              "locked_sha256": "1a4c3c22c3bab4b7c5ca63b8a6547ffa6290e303f042d7e947b28a5666d0bcd8",
+              "candidate_sha256": "a44833abf00d86e63518083259161e94d36b0b8077c01402a0f577b902c24655",
+              "status": "changed"
+            },
+            {
+              "path": "src/keccak256/benchmarks.nr",
+              "locked_sha256": null,
+              "candidate_sha256": "3442d0a39314c488b971cedd680418f6ea465fa609b94516a989fdc6b2e394fe",
+              "status": "added"
+            },
+            {
+              "path": "src/keccak256/oracle_tests.nr",
+              "locked_sha256": null,
+              "candidate_sha256": "c1dc1dd71152ee8d0adb3ae5bbee3d79fe23735fbdaa37971132cf78e09e0b68",
+              "status": "added"
+            },
+            {
+              "path": "src/keccak256/tests.nr",
+              "locked_sha256": "9f5cd201e2eba5889a6fd12f21349f9844f145fab03b2f3385f7d558f93a6e6d",
+              "candidate_sha256": "f1dce57f3f19a76a360b5c0c78a21cf92ca1d021ed51c883467130b1aa2862f0",
+              "status": "changed"
+            },
+            {
+              "path": "src/lib.nr",
+              "locked_sha256": "ff5769ab59f5a48507abe1e403722fb83765e5387d85255d75a55e95c4146fe5",
+              "candidate_sha256": "ff5769ab59f5a48507abe1e403722fb83765e5387d85255d75a55e95c4146fe5",
+              "status": "identical"
+            }
+          ],
+          "all_nr_bytes_identical": false,
+          "applicable_unchanged_algorithm_license_candidate": false
+        },
+        {
+          "label": "v0.1.3",
+          "commit": "f64ab3af714aa1a1e2699243037e0f11fe5bf706",
+          "archive": {
+            "url": "https://codeload.github.com/noir-lang/keccak256/tar.gz/f64ab3af714aa1a1e2699243037e0f11fe5bf706",
+            "sha256": "9dbaaf0c7c2002c22442d4e487e6ed08ac4684fb1f217f70e1c00a5d4486d54b"
+          },
+          "upstream_license_notice_paths": [],
+          "declarations": [],
+          "nr_file_comparisons": [
+            {
+              "path": "src/keccak256.nr",
+              "locked_sha256": "1a4c3c22c3bab4b7c5ca63b8a6547ffa6290e303f042d7e947b28a5666d0bcd8",
+              "candidate_sha256": "c57c92445c21cff029dd953a1aa91fb4e867d3d424bdc2b33053af82f73bf102",
+              "status": "changed"
+            },
+            {
+              "path": "src/keccak256/benchmarks.nr",
+              "locked_sha256": null,
+              "candidate_sha256": "3442d0a39314c488b971cedd680418f6ea465fa609b94516a989fdc6b2e394fe",
+              "status": "added"
+            },
+            {
+              "path": "src/keccak256/oracle_tests.nr",
+              "locked_sha256": null,
+              "candidate_sha256": "c1dc1dd71152ee8d0adb3ae5bbee3d79fe23735fbdaa37971132cf78e09e0b68",
+              "status": "added"
+            },
+            {
+              "path": "src/keccak256/tests.nr",
+              "locked_sha256": "9f5cd201e2eba5889a6fd12f21349f9844f145fab03b2f3385f7d558f93a6e6d",
+              "candidate_sha256": "f1dce57f3f19a76a360b5c0c78a21cf92ca1d021ed51c883467130b1aa2862f0",
+              "status": "changed"
+            },
+            {
+              "path": "src/lib.nr",
+              "locked_sha256": "ff5769ab59f5a48507abe1e403722fb83765e5387d85255d75a55e95c4146fe5",
+              "candidate_sha256": "ff5769ab59f5a48507abe1e403722fb83765e5387d85255d75a55e95c4146fe5",
+              "status": "identical"
+            }
+          ],
+          "all_nr_bytes_identical": false,
+          "applicable_unchanged_algorithm_license_candidate": false
+        }
+      ],
+      "saved_later_license_texts": [
+        {
+          "source_url": "https://raw.githubusercontent.com/noir-lang/keccak256/3a81a0e3ba7167c65536e9aa9a9500d570d2d3e3/LICENSE",
+          "local_path": "licenses/later-upstream/noir-lang__keccak256__3a81a0e3ba7167c65536e9aa9a9500d570d2d3e3/LICENSE",
+          "sha256": "6e6938e192dd643c13add5af287af194d5b40e5b42de57fcf5750b7e2511201b"
+        }
+      ]
+    },
+    {
+      "repo": "noir-lang/sha256",
+      "locked_ref": "v0.2.1",
+      "locked_archive": {
+        "url": "https://codeload.github.com/noir-lang/sha256/tar.gz/v0.2.1",
+        "sha256": "bbac7548b03a99ca0be27bbe1e7292c40767a603893bd58a30811ee7204f5b52"
+      },
+      "candidates": [
+        {
+          "label": "current-main",
+          "commit": "50f5fda729d94848aabcd9d54dc7751460e9143a",
+          "archive": {
+            "url": "https://codeload.github.com/noir-lang/sha256/tar.gz/50f5fda729d94848aabcd9d54dc7751460e9143a",
+            "sha256": "a14c4da2f7a37049f562c30cb15d8ff13d54a027c64e59c921f5b707d6b1b301"
+          },
+          "upstream_license_notice_paths": [
+            "LICENSE"
+          ],
+          "declarations": [
+            {
+              "path": "README.md",
+              "sha256": "fccb7026cfe28c68ce93bf5ee0ddea641f46207883dda40a523fdf22ba116deb",
+              "lines": [
+                {
+                  "line": 6,
+                  "text": "> sha256 is provided \"as is\", without warranty of any kind (see [LICENSE](LICENSE)). Bugs in this library can lead to under-constrained circuits, allowing invalid proofs to be accepted. Do not rely on it to protect real assets or sensitive data without your own independent review."
+                }
+              ]
+            }
+          ],
+          "nr_file_comparisons": [
+            {
+              "path": "src/lib.nr",
+              "locked_sha256": "43ff6655816a654e5c84e003e7e65564e8898532f17953629ff9f07901c1c882",
+              "candidate_sha256": "43ff6655816a654e5c84e003e7e65564e8898532f17953629ff9f07901c1c882",
+              "status": "identical"
+            },
+            {
+              "path": "src/sha224.nr",
+              "locked_sha256": "8445d69713805a1118ff3a0b2a6ff30281207e3d36d292b0a30558dd3bce9614",
+              "candidate_sha256": "29de045c97c95cfa609b36f573576949ecdc957008864998741ea8d6da609db6",
+              "status": "changed"
+            },
+            {
+              "path": "src/sha224/constants.nr",
+              "locked_sha256": "4cfecdc823beb9bf74e5182571c06257128e9ba2948b3fb0ab40bc7c8708c3ef",
+              "candidate_sha256": "4cfecdc823beb9bf74e5182571c06257128e9ba2948b3fb0ab40bc7c8708c3ef",
+              "status": "identical"
+            },
+            {
+              "path": "src/sha224/oracle_tests.nr",
+              "locked_sha256": null,
+              "candidate_sha256": "9c72ffb251fdb9fc95a289a4424e8edd3f9b358736c196879299f6dc0616a21e",
+              "status": "added"
+            },
+            {
+              "path": "src/sha224/tests.nr",
+              "locked_sha256": "9816b0f88daba092ce74510713685dd4bbd7883506cf34f904719269aa3673e1",
+              "candidate_sha256": "a22c842c072fced960933a725f3c4f18309d0de2fd175ec48e9c5cd25fe3d048",
+              "status": "changed"
+            },
+            {
+              "path": "src/sha256.nr",
+              "locked_sha256": "687d800ecd04b28cca0ff5f55488277e1a36f818e28045845adf73800a551773",
+              "candidate_sha256": "ee1288e58dbcf03fcf769bb37bc7e11dd75c0a43ab34bb63d12cb624fe23b1d2",
+              "status": "changed"
+            },
+            {
+              "path": "src/sha256/constants.nr",
+              "locked_sha256": "202774394c329682404b303cdf4a82d0513aecd7d2c0e62e1a44947eb049bfdb",
+              "candidate_sha256": "b81c3bf36548c49b185e09864b0479c021d8dcc1ae3c5842a7e311eebbf85f62",
+              "status": "changed"
+            },
+            {
+              "path": "src/sha256/oracle_tests.nr",
+              "locked_sha256": null,
+              "candidate_sha256": "e94488054568bb94cae00bb4bc4219025f08110042c37a2a0cd767139e2de851",
+              "status": "added"
+            },
+            {
+              "path": "src/sha256/tests.nr",
+              "locked_sha256": "4ac8453727419da9bdeee85847f981db3aa4cc0c26f9b6919ca974993e421f37",
+              "candidate_sha256": "f77688bbaa9dfe08fd58cfc079b375ffc47363d08a0090909f01a07004e8200a",
+              "status": "changed"
+            }
+          ],
+          "all_nr_bytes_identical": false,
+          "applicable_unchanged_algorithm_license_candidate": false
+        },
+        {
+          "label": "v0.3.0",
+          "commit": "9442e5b6856f98b2ec029882d7e90199ecff91ba",
+          "archive": {
+            "url": "https://codeload.github.com/noir-lang/sha256/tar.gz/9442e5b6856f98b2ec029882d7e90199ecff91ba",
+            "sha256": "9ad9e46c508b19c6cdd000aaea0b7d625ef6add9e07e2202c6c685c22bb4dc89"
+          },
+          "upstream_license_notice_paths": [],
+          "declarations": [],
+          "nr_file_comparisons": [
+            {
+              "path": "src/lib.nr",
+              "locked_sha256": "43ff6655816a654e5c84e003e7e65564e8898532f17953629ff9f07901c1c882",
+              "candidate_sha256": "43ff6655816a654e5c84e003e7e65564e8898532f17953629ff9f07901c1c882",
+              "status": "identical"
+            },
+            {
+              "path": "src/sha224.nr",
+              "locked_sha256": "8445d69713805a1118ff3a0b2a6ff30281207e3d36d292b0a30558dd3bce9614",
+              "candidate_sha256": "eb84f48fe4cd39794d70dec4489483e131936372c0f1c135123098362f46ab13",
+              "status": "changed"
+            },
+            {
+              "path": "src/sha224/constants.nr",
+              "locked_sha256": "4cfecdc823beb9bf74e5182571c06257128e9ba2948b3fb0ab40bc7c8708c3ef",
+              "candidate_sha256": "4cfecdc823beb9bf74e5182571c06257128e9ba2948b3fb0ab40bc7c8708c3ef",
+              "status": "identical"
+            },
+            {
+              "path": "src/sha224/oracle_tests.nr",
+              "locked_sha256": null,
+              "candidate_sha256": "9c72ffb251fdb9fc95a289a4424e8edd3f9b358736c196879299f6dc0616a21e",
+              "status": "added"
+            },
+            {
+              "path": "src/sha224/tests.nr",
+              "locked_sha256": "9816b0f88daba092ce74510713685dd4bbd7883506cf34f904719269aa3673e1",
+              "candidate_sha256": "46b9f2522b0edf67cf9d9d044956bc8b7f1e3a37ea5c7fdc16963ca07504b2f2",
+              "status": "changed"
+            },
+            {
+              "path": "src/sha256.nr",
+              "locked_sha256": "687d800ecd04b28cca0ff5f55488277e1a36f818e28045845adf73800a551773",
+              "candidate_sha256": "c3a66f2eac7f4b38b866518264f755ea2e0b95d33fd21df044f65297e08640e8",
+              "status": "changed"
+            },
+            {
+              "path": "src/sha256/constants.nr",
+              "locked_sha256": "202774394c329682404b303cdf4a82d0513aecd7d2c0e62e1a44947eb049bfdb",
+              "candidate_sha256": "b81c3bf36548c49b185e09864b0479c021d8dcc1ae3c5842a7e311eebbf85f62",
+              "status": "changed"
+            },
+            {
+              "path": "src/sha256/oracle_tests.nr",
+              "locked_sha256": null,
+              "candidate_sha256": "e94488054568bb94cae00bb4bc4219025f08110042c37a2a0cd767139e2de851",
+              "status": "added"
+            },
+            {
+              "path": "src/sha256/tests.nr",
+              "locked_sha256": "4ac8453727419da9bdeee85847f981db3aa4cc0c26f9b6919ca974993e421f37",
+              "candidate_sha256": "f4827a20f4543899bc653b991523c95e830437fc30988426b6b86a44428d6d40",
+              "status": "changed"
+            }
+          ],
+          "all_nr_bytes_identical": false,
+          "applicable_unchanged_algorithm_license_candidate": false
+        }
+      ],
+      "saved_later_license_texts": [
+        {
+          "source_url": "https://raw.githubusercontent.com/noir-lang/sha256/50f5fda729d94848aabcd9d54dc7751460e9143a/LICENSE",
+          "local_path": "licenses/later-upstream/noir-lang__sha256__50f5fda729d94848aabcd9d54dc7751460e9143a/LICENSE",
+          "sha256": "6e6938e192dd643c13add5af287af194d5b40e5b42de57fcf5750b7e2511201b"
+        }
+      ]
+    },
+    {
+      "repo": "olehmisar/nodash",
+      "locked_ref": "v0.42.0",
+      "locked_archive": {
+        "url": "https://codeload.github.com/olehmisar/nodash/tar.gz/v0.42.0",
+        "sha256": "d0a3aed81ed5418b21d989bfaccd54ca7acb82c28b8fafa1f737718d5ab77d35"
+      },
+      "candidates": [
+        {
+          "label": "current-main-and-v0.46.0",
+          "commit": "55b664ea25b151b286fd50f5a64e9c42d91c677c",
+          "archive": {
+            "url": "https://codeload.github.com/olehmisar/nodash/tar.gz/55b664ea25b151b286fd50f5a64e9c42d91c677c",
+            "sha256": "38f163b73753a3ba049ba2d69599249b5f5311f601d63e559dcd842f7bf3e934"
+          },
+          "upstream_license_notice_paths": [],
+          "declarations": [],
+          "nr_file_comparisons": [
+            {
+              "path": "src/array.nr",
+              "locked_sha256": "5fd664ff274d1b5755385a20a2bfac198429422ab7549ffd4692bd4b79bbf6c6",
+              "candidate_sha256": "7e7ac1e2667845fbb86da6ab082aa855255749eb44aa66559379f91d4a12cf84",
+              "status": "changed"
+            },
+            {
+              "path": "src/convert.nr",
+              "locked_sha256": "26b8f6a3cc0c71f9e1ce590ca8b3cebfcea9aaf154b4b642160f5df215c81a9c",
+              "candidate_sha256": "26b8f6a3cc0c71f9e1ce590ca8b3cebfcea9aaf154b4b642160f5df215c81a9c",
+              "status": "identical"
+            },
+            {
+              "path": "src/hash.nr",
+              "locked_sha256": "df8428092647a41d4c5826be5bf4244f098d248bb8f15df71944545894c77c5e",
+              "candidate_sha256": "94da420a37884b020545fb99b87f7f5e681b25bbfe7876904d22b40fbfdcbc63",
+              "status": "changed"
+            },
+            {
+              "path": "src/lib.nr",
+              "locked_sha256": "8e4cd8009cd62bd7b65bc7bbc7ac911476decf0e075fbeacc8440ba611a2eeac",
+              "candidate_sha256": "230b433f4b9830d5996f3332550de5092650a65e60d4a36679462c4fefd0e2e3",
+              "status": "changed"
+            },
+            {
+              "path": "src/math.nr",
+              "locked_sha256": "17e381326d717f63fb547c8ba60b6242e99ace5603dfa7d2903373a1857b6b0d",
+              "candidate_sha256": "0b79ae0ea9c066094cba9c01ace4f0901214e60355167f7baf0c87c148cbe667",
+              "status": "changed"
+            },
+            {
+              "path": "src/math/numeric.nr",
+              "locked_sha256": "551cebe2663e6e3bcd578b2008d358c4712cba9d830033388d177e77838806b3",
+              "candidate_sha256": "551cebe2663e6e3bcd578b2008d358c4712cba9d830033388d177e77838806b3",
+              "status": "identical"
+            },
+            {
+              "path": "src/math/sqrt.nr",
+              "locked_sha256": "e1222a3808aaff83c9efe09b5f3aaef99e9ef224072ec67b62829921d9d44852",
+              "candidate_sha256": "6ff006636b324c8afea21c3bb071e26319947a119e0f4cce8a51a5ebe983bb2d",
+              "status": "changed"
+            },
+            {
+              "path": "src/solidity.nr",
+              "locked_sha256": "7af1f61393cff3b935b1cbbc454de185dee25a614bff03d23efbf2d3128b8c3a",
+              "candidate_sha256": "7af1f61393cff3b935b1cbbc454de185dee25a614bff03d23efbf2d3128b8c3a",
+              "status": "identical"
+            },
+            {
+              "path": "src/string.nr",
+              "locked_sha256": "59e0872c80102c3feb21153912590abe953a30e4643a6a85166cc1a3b4b3f226",
+              "candidate_sha256": "7bb39cbebf9a4dd131fcb01bc6f130079aa8355aad00c0ddcec23b7807c4396f",
+              "status": "changed"
+            },
+            {
+              "path": "src/tables.nr",
+              "locked_sha256": "3797c682a4b79d0c0273ba305637228dc4aa5a02b535b232eae917a9adc446b8",
+              "candidate_sha256": "3797c682a4b79d0c0273ba305637228dc4aa5a02b535b232eae917a9adc446b8",
+              "status": "identical"
+            },
+            {
+              "path": "src/validate_inputs.nr",
+              "locked_sha256": "d94c90a93de7d0534795677d89571ffe700fe9b75b3e1f9d3a242e49c8c2e31c",
+              "candidate_sha256": null,
+              "status": "removed"
+            },
+            {
+              "path": "tests/src/lib.nr",
+              "locked_sha256": "cb0b2284a44eb57ec9b01a22fac1ad88e91bb7dd6e58b891a70147db7f355baa",
+              "candidate_sha256": null,
+              "status": "removed"
+            },
+            {
+              "path": "tests/src/validate_inputs.nr",
+              "locked_sha256": "29a8ac61b09479f8f7f847f06bdab8af68a9092c5051505d2b635b4ec3ec105a",
+              "candidate_sha256": null,
+              "status": "removed"
+            }
+          ],
+          "all_nr_bytes_identical": false,
+          "applicable_unchanged_algorithm_license_candidate": false
+        }
+      ],
+      "saved_later_license_texts": []
+    }
+  ]
+}

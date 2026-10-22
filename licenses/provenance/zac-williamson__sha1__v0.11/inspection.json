@@ -1,0 +1,14 @@
+{
+  "archive_url": "https://codeload.github.com/zac-williamson/sha1/tar.gz/v0.11",
+  "archive_sha256": "ca8bd58410ab1dd21af261ad528e8b665d843be5b9b59b15449feb7f07080f87",
+  "locked_archive_sha256": "ca8bd58410ab1dd21af261ad528e8b665d843be5b9b59b15449feb7f07080f87",
+  "locked_archive_match": true,
+  "bytes": 34796,
+  "repository": "https://github.com/zac-williamson/sha1",
+  "ref": "v0.11",
+  "archive_member_count": 25,
+  "license_notice_paths": [
+    "LICENSE"
+  ],
+  "declarations": []
+}

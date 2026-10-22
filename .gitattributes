@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.der binary
+*.crt binary
+*.png binary
+*.bin binary

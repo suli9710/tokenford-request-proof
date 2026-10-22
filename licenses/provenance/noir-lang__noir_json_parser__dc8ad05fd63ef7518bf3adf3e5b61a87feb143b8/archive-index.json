@@ -1,0 +1,222 @@
+[
+  {
+    "path": ".github/NIGHTLY_CANARY_DIED.md",
+    "bytes": 405,
+    "sha256": "790f599b838367df66e3841bde1b0ecea17a32e8a5bd392f7b8227e6567de983"
+  },
+  {
+    "path": ".github/workflows/benchmark.yml",
+    "bytes": 3136,
+    "sha256": "1994d62416c6f296108a80a064be34e93604b1bc5d24ca1ccd0fcbd73777f032"
+  },
+  {
+    "path": ".github/workflows/nightly-canary.yml",
+    "bytes": 919,
+    "sha256": "80983a516545d7507c0002404be91529918393f8360d1ccf5933b47a7fe9628b"
+  },
+  {
+    "path": ".github/workflows/pull-request-title.yml",
+    "bytes": 587,
+    "sha256": "13f61844a797a528e5fc0cf938016cf69d78f2e904c09db5022b74d859f7d3dd"
+  },
+  {
+    "path": ".github/workflows/release.yml",
+    "bytes": 460,
+    "sha256": "7b5b5ca31695f9536d45e96d7e9f9210d1d62e380b11a6166b220f666a9b0380"
+  },
+  {
+    "path": ".github/workflows/test.yml",
+    "bytes": 2618,
+    "sha256": "06e1b688c0e19f155abc9013d407e3d256530607ffee098dcbcb8fbaf25b7956"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 7,
+    "sha256": "c97ecfda4d205190b973232dcfdb0c29748521c2534dd866bcc782f30b086738"
+  },
+  {
+    "path": ".release-please-manifest.json",
+    "bytes": 14,
+    "sha256": "29dcfc3b6302bff169e9a764158f5557eb4d87dcb42a81621c67fadf2576162d"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "bytes": 2614,
+    "sha256": "632b9111407dbc0dade46fc1000dd02b776fc992e0005d196101b879c69e712f"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 5318,
+    "sha256": "e628271a7e5c950c86db39002729b77bfd8c4339199826454abe796f369d5779"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 10947,
+    "sha256": "4458503dd48e88c4e0b945fb252a08b93c40ec757309b8ffa7c594dfa1e35104"
+  },
+  {
+    "path": "Nargo.toml",
+    "bytes": 258,
+    "sha256": "1d01f7860486c6d6a5e0b3272696bbd67dba9ac0e73677a68a59754e974bc867"
+  },
+  {
+    "path": "README.md",
+    "bytes": 5647,
+    "sha256": "d8a54cd8637704bed4c049a8f59cc3bbfc4b19c6977f371d2bf1419a73049d46"
+  },
+  {
+    "path": "release-please-config.json",
+    "bytes": 383,
+    "sha256": "657c0bacc9abc669cda3d54667fc3db91fee93fa03eb2a124e3599de4c5c16ab"
+  },
+  {
+    "path": "scripts/build-brillig-report.sh",
+    "bytes": 1007,
+    "sha256": "591587314da9cde53dd7d9cdaec0aee7662bf0323f2f5ce524b70ea254ca5846"
+  },
+  {
+    "path": "scripts/build-gates-report.sh",
+    "bytes": 1413,
+    "sha256": "d736ea44eba1a8501bae452119e9942748cc0a4cf17fe4a22d77531f96647e59"
+  },
+  {
+    "path": "src/_comparison_tools/bounds_checker.nr",
+    "bytes": 4903,
+    "sha256": "3dc399b05d5d8a4aab3709b93364e3cdf4d834d19ab62b3bef36dfc0911d259a"
+  },
+  {
+    "path": "src/_comparison_tools/lt.nr",
+    "bytes": 2691,
+    "sha256": "0047bdfee628f8d3c58424faff9d4b55fa00515e6a32795847e97b43c94e2d8e"
+  },
+  {
+    "path": "src/_comparison_tools/mod.nr",
+    "bytes": 50,
+    "sha256": "76e66e67375def568f830cda1ea30078ddd03b5b00077f7e1bfc07339d72cfdf"
+  },
+  {
+    "path": "src/_string_tools/mod.nr",
+    "bytes": 94,
+    "sha256": "00e21edec3bc8831da63e3622ec663947993a2852695fedd60bb796d000bb64b"
+  },
+  {
+    "path": "src/_string_tools/slice_field.nr",
+    "bytes": 2508,
+    "sha256": "7f7580367914235f72777b36d5da082cac3ccac24945f7391aab0d0d2f08bf74"
+  },
+  {
+    "path": "src/_string_tools/slice_packed_field.nr",
+    "bytes": 33648,
+    "sha256": "284039b95465158314857e0119ea1712aae1b6d4f5c1e4116187e050a25e95d0"
+  },
+  {
+    "path": "src/_string_tools/string_chopper.nr",
+    "bytes": 1107,
+    "sha256": "e9eea881e1b59f6c71ed863471f25b5efb2b8b50f3506817d312ae8c5dfdf3ce"
+  },
+  {
+    "path": "src/_table_generation/make_tables.nr",
+    "bytes": 21312,
+    "sha256": "241ab953602b541efe9b7ed89801bd3d4a79d17f655b48bccb2a59d351bddcfb"
+  },
+  {
+    "path": "src/_table_generation/make_tables_subtables.nr",
+    "bytes": 58892,
+    "sha256": "7564dba6ace058c2744ed1facd84a8da9d1501e1cdd6b3caf73f19d513dda167"
+  },
+  {
+    "path": "src/_table_generation/mod.nr",
+    "bytes": 66,
+    "sha256": "6b92771603ff100b097f110bff50b088e86998faf3d6ecdbf8c3b79ebbc43205"
+  },
+  {
+    "path": "src/benchmarks/benchmarks.nr",
+    "bytes": 2438,
+    "sha256": "f211743a9e2cad41dd4e95f097642accfb9bfd441aac583d6c490b5db31577e9"
+  },
+  {
+    "path": "src/benchmarks/mod.nr",
+    "bytes": 16,
+    "sha256": "bdc5a72f3a9802de1cb850bf08d8fd984a43a39da68df3cfc66824a441fa072c"
+  },
+  {
+    "path": "src/enums.nr",
+    "bytes": 886,
+    "sha256": "a4aaae77babbefe1c588cc6dfcb3c9713412d13eefe7e8efd9738c059fbd17b4"
+  },
+  {
+    "path": "src/get_array.nr",
+    "bytes": 10425,
+    "sha256": "0cc77b49d347832f584c2903b5b612d76596a718665ecb60db3b2547008229e0"
+  },
+  {
+    "path": "src/get_literal.nr",
+    "bytes": 8107,
+    "sha256": "c16cdfceb6a9558c785a5ae9d254a5e6b574f7355cdbe6b90bb19e3e8fa25c0a"
+  },
+  {
+    "path": "src/get_number.nr",
+    "bytes": 6677,
+    "sha256": "fd5710eebe3e01d5ee241de031b4fd87e2557878d4a122905745850d0b6ba816"
+  },
+  {
+    "path": "src/get_object.nr",
+    "bytes": 9174,
+    "sha256": "1e3b9aae11b3b27c605059a8dba466d769d946f2798edae0e9c5c95987c696d7"
+  },
+  {
+    "path": "src/get_string.nr",
+    "bytes": 17609,
+    "sha256": "9b2ba99fde1ffbd114f57f98408f802d06b50d6b7a40343d4479fba4ec8c0eee"
+  },
+  {
+    "path": "src/getters.nr",
+    "bytes": 22913,
+    "sha256": "6bbad1f8441812fd26bf7c46b47694ebcf7f1f7ce0446dd6dea7f1a540704473"
+  },
+  {
+    "path": "src/json.nr",
+    "bytes": 45741,
+    "sha256": "10ce990213b51598cd24587a5b8b6a13960cca9e5cfad8d89da547de016e5599"
+  },
+  {
+    "path": "src/json_entry.nr",
+    "bytes": 11345,
+    "sha256": "9b770ca8c32933bb1e2290d1e01bf7180dab08e700e691afc826dcfe434148a5"
+  },
+  {
+    "path": "src/json_tables.nr",
+    "bytes": 62891,
+    "sha256": "c0bc3f400d8807ddd0146576681d2048cd0123bb126e99383edd1602f5e6db25"
+  },
+  {
+    "path": "src/keyhash.nr",
+    "bytes": 2384,
+    "sha256": "98de76642b198418b52c96d2cb0962e696b78e36a78207a4bf2176865219c3a4"
+  },
+  {
+    "path": "src/keymap.nr",
+    "bytes": 7580,
+    "sha256": "a441a7b392d92a87a82bc69317529609b4fc5207d7366589ad4934b60cca7fbe"
+  },
+  {
+    "path": "src/lib.nr",
+    "bytes": 647,
+    "sha256": "c9e2451d1d912364f27ae1e687cdbebf7883637eeb53a209c956cc2964777d12"
+  },
+  {
+    "path": "src/token_flags.nr",
+    "bytes": 2783,
+    "sha256": "5452d9cd2c5d8a690289e1bcdeae9151bf52b4092f1935266fcfd75dbdcdc277"
+  },
+  {
+    "path": "src/transcript_entry.nr",
+    "bytes": 9871,
+    "sha256": "d995fed5ba223c92943cb390a40dbec913f1b4206183c98b8af1ec2934080e82"
+  },
+  {
+    "path": "src/utils.nr",
+    "bytes": 123,
+    "sha256": "f8537a709de9e6a45ad45a8a87b6766e66584e0f6f530765d44e668ba63f4cce"
+  }
+]

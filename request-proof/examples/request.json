@@ -1,0 +1,8 @@
+{
+  "model": "gpt-6-astra",
+  "instructions": "Reply briefly.",
+  "input": [{"role": "user", "content": [{"type": "input_text", "text": "Reply exactly: OK"}]}],
+  "stream": true,
+  "store": false,
+  "reasoning": {"effort": "low"}
+}

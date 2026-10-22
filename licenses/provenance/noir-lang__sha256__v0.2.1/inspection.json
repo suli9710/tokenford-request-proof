@@ -1,0 +1,12 @@
+{
+  "archive_url": "https://codeload.github.com/noir-lang/sha256/tar.gz/v0.2.1",
+  "archive_sha256": "bbac7548b03a99ca0be27bbe1e7292c40767a603893bd58a30811ee7204f5b52",
+  "locked_archive_sha256": "bbac7548b03a99ca0be27bbe1e7292c40767a603893bd58a30811ee7204f5b52",
+  "locked_archive_match": true,
+  "bytes": 36271,
+  "repository": "https://github.com/noir-lang/sha256",
+  "ref": "v0.2.1",
+  "archive_member_count": 24,
+  "license_notice_paths": [],
+  "declarations": []
+}
